@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA24E5321D15A62B007E2A0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5311D15A62B007E2A0D /* main.m */; };
+		AA24E5351D15A62B007E2A0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5341D15A62B007E2A0D /* AppDelegate.m */; };
+		AA24E5381D15A62B007E2A0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5371D15A62B007E2A0D /* ViewController.m */; };
+		AA24E53B1D15A62B007E2A0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA24E5391D15A62B007E2A0D /* Main.storyboard */; };
+		AA24E53D1D15A62B007E2A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA24E53C1D15A62B007E2A0D /* Assets.xcassets */; };
+		AA24E5401D15A62C007E2A0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA24E53E1D15A62C007E2A0D /* LaunchScreen.storyboard */; };
+		AA24E54B1D15A62C007E2A0D /* PalmHealthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E54A1D15A62C007E2A0D /* PalmHealthTests.m */; };
+		AA24E5561D15A62C007E2A0D /* PalmHealthUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5551D15A62C007E2A0D /* PalmHealthUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA24E5471D15A62C007E2A0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA24E5251D15A62B007E2A0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA24E52C1D15A62B007E2A0D;
+			remoteInfo = PalmHealth;
+		};
+		AA24E5521D15A62C007E2A0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA24E5251D15A62B007E2A0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA24E52C1D15A62B007E2A0D;
+			remoteInfo = PalmHealth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA24E52D1D15A62B007E2A0D /* PalmHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PalmHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA24E5311D15A62B007E2A0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA24E5331D15A62B007E2A0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA24E5341D15A62B007E2A0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA24E5361D15A62B007E2A0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA24E5371D15A62B007E2A0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA24E53A1D15A62B007E2A0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA24E53C1D15A62B007E2A0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA24E53F1D15A62C007E2A0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA24E5411D15A62C007E2A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA24E5461D15A62C007E2A0D /* PalmHealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PalmHealthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA24E54A1D15A62C007E2A0D /* PalmHealthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalmHealthTests.m; sourceTree = "<group>"; };
+		AA24E54C1D15A62C007E2A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA24E5511D15A62C007E2A0D /* PalmHealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PalmHealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA24E5551D15A62C007E2A0D /* PalmHealthUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalmHealthUITests.m; sourceTree = "<group>"; };
+		AA24E5571D15A62C007E2A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA24E52A1D15A62B007E2A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA24E5431D15A62C007E2A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA24E54E1D15A62C007E2A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA24E5241D15A62B007E2A0D = {
+			isa = PBXGroup;
+			children = (
+				AA24E52F1D15A62B007E2A0D /* PalmHealth */,
+				AA24E5491D15A62C007E2A0D /* PalmHealthTests */,
+				AA24E5541D15A62C007E2A0D /* PalmHealthUITests */,
+				AA24E52E1D15A62B007E2A0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA24E52E1D15A62B007E2A0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E52D1D15A62B007E2A0D /* PalmHealth.app */,
+				AA24E5461D15A62C007E2A0D /* PalmHealthTests.xctest */,
+				AA24E5511D15A62C007E2A0D /* PalmHealthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA24E52F1D15A62B007E2A0D /* PalmHealth */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E5331D15A62B007E2A0D /* AppDelegate.h */,
+				AA24E5341D15A62B007E2A0D /* AppDelegate.m */,
+				AA24E5361D15A62B007E2A0D /* ViewController.h */,
+				AA24E5371D15A62B007E2A0D /* ViewController.m */,
+				AA24E5391D15A62B007E2A0D /* Main.storyboard */,
+				AA24E53C1D15A62B007E2A0D /* Assets.xcassets */,
+				AA24E53E1D15A62C007E2A0D /* LaunchScreen.storyboard */,
+				AA24E5411D15A62C007E2A0D /* Info.plist */,
+				AA24E5301D15A62B007E2A0D /* Supporting Files */,
+			);
+			path = PalmHealth;
+			sourceTree = "<group>";
+		};
+		AA24E5301D15A62B007E2A0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E5311D15A62B007E2A0D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA24E5491D15A62C007E2A0D /* PalmHealthTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E54A1D15A62C007E2A0D /* PalmHealthTests.m */,
+				AA24E54C1D15A62C007E2A0D /* Info.plist */,
+			);
+			path = PalmHealthTests;
+			sourceTree = "<group>";
+		};
+		AA24E5541D15A62C007E2A0D /* PalmHealthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E5551D15A62C007E2A0D /* PalmHealthUITests.m */,
+				AA24E5571D15A62C007E2A0D /* Info.plist */,
+			);
+			path = PalmHealthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA24E52C1D15A62B007E2A0D /* PalmHealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA24E55A1D15A62C007E2A0D /* Build configuration list for PBXNativeTarget "PalmHealth" */;
+			buildPhases = (
+				AA24E5291D15A62B007E2A0D /* Sources */,
+				AA24E52A1D15A62B007E2A0D /* Frameworks */,
+				AA24E52B1D15A62B007E2A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PalmHealth;
+			productName = PalmHealth;
+			productReference = AA24E52D1D15A62B007E2A0D /* PalmHealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA24E5451D15A62C007E2A0D /* PalmHealthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA24E55D1D15A62C007E2A0D /* Build configuration list for PBXNativeTarget "PalmHealthTests" */;
+			buildPhases = (
+				AA24E5421D15A62C007E2A0D /* Sources */,
+				AA24E5431D15A62C007E2A0D /* Frameworks */,
+				AA24E5441D15A62C007E2A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA24E5481D15A62C007E2A0D /* PBXTargetDependency */,
+			);
+			name = PalmHealthTests;
+			productName = PalmHealthTests;
+			productReference = AA24E5461D15A62C007E2A0D /* PalmHealthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA24E5501D15A62C007E2A0D /* PalmHealthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA24E5601D15A62C007E2A0D /* Build configuration list for PBXNativeTarget "PalmHealthUITests" */;
+			buildPhases = (
+				AA24E54D1D15A62C007E2A0D /* Sources */,
+				AA24E54E1D15A62C007E2A0D /* Frameworks */,
+				AA24E54F1D15A62C007E2A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA24E5531D15A62C007E2A0D /* PBXTargetDependency */,
+			);
+			name = PalmHealthUITests;
+			productName = PalmHealthUITests;
+			productReference = AA24E5511D15A62C007E2A0D /* PalmHealthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA24E5251D15A62B007E2A0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HaoHeHealth;
+				TargetAttributes = {
+					AA24E52C1D15A62B007E2A0D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					AA24E5451D15A62C007E2A0D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AA24E52C1D15A62B007E2A0D;
+					};
+					AA24E5501D15A62C007E2A0D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AA24E52C1D15A62B007E2A0D;
+					};
+				};
+			};
+			buildConfigurationList = AA24E5281D15A62B007E2A0D /* Build configuration list for PBXProject "PalmHealth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA24E5241D15A62B007E2A0D;
+			productRefGroup = AA24E52E1D15A62B007E2A0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA24E52C1D15A62B007E2A0D /* PalmHealth */,
+				AA24E5451D15A62C007E2A0D /* PalmHealthTests */,
+				AA24E5501D15A62C007E2A0D /* PalmHealthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA24E52B1D15A62B007E2A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA24E5401D15A62C007E2A0D /* LaunchScreen.storyboard in Resources */,
+				AA24E53D1D15A62B007E2A0D /* Assets.xcassets in Resources */,
+				AA24E53B1D15A62B007E2A0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA24E5441D15A62C007E2A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA24E54F1D15A62C007E2A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA24E5291D15A62B007E2A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA24E5381D15A62B007E2A0D /* ViewController.m in Sources */,
+				AA24E5351D15A62B007E2A0D /* AppDelegate.m in Sources */,
+				AA24E5321D15A62B007E2A0D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA24E5421D15A62C007E2A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA24E54B1D15A62C007E2A0D /* PalmHealthTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA24E54D1D15A62C007E2A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA24E5561D15A62C007E2A0D /* PalmHealthUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA24E5481D15A62C007E2A0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA24E52C1D15A62B007E2A0D /* PalmHealth */;
+			targetProxy = AA24E5471D15A62C007E2A0D /* PBXContainerItemProxy */;
+		};
+		AA24E5531D15A62C007E2A0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA24E52C1D15A62B007E2A0D /* PalmHealth */;
+			targetProxy = AA24E5521D15A62C007E2A0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA24E5391D15A62B007E2A0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA24E53A1D15A62B007E2A0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA24E53E1D15A62C007E2A0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA24E53F1D15A62C007E2A0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA24E5581D15A62C007E2A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA24E5591D15A62C007E2A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA24E55B1D15A62C007E2A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PalmHealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haohehealth.PalmHealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA24E55C1D15A62C007E2A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PalmHealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haohehealth.PalmHealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA24E55E1D15A62C007E2A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PalmHealthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haohehealth.PalmHealthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PalmHealth.app/PalmHealth";
+			};
+			name = Debug;
+		};
+		AA24E55F1D15A62C007E2A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PalmHealthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haohehealth.PalmHealthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PalmHealth.app/PalmHealth";
+			};
+			name = Release;
+		};
+		AA24E5611D15A62C007E2A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PalmHealthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haohehealth.PalmHealthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PalmHealth;
+			};
+			name = Debug;
+		};
+		AA24E5621D15A62C007E2A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PalmHealthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haohehealth.PalmHealthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PalmHealth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA24E5281D15A62B007E2A0D /* Build configuration list for PBXProject "PalmHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA24E5581D15A62C007E2A0D /* Debug */,
+				AA24E5591D15A62C007E2A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA24E55A1D15A62C007E2A0D /* Build configuration list for PBXNativeTarget "PalmHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA24E55B1D15A62C007E2A0D /* Debug */,
+				AA24E55C1D15A62C007E2A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA24E55D1D15A62C007E2A0D /* Build configuration list for PBXNativeTarget "PalmHealthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA24E55E1D15A62C007E2A0D /* Debug */,
+				AA24E55F1D15A62C007E2A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA24E5601D15A62C007E2A0D /* Build configuration list for PBXNativeTarget "PalmHealthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA24E5611D15A62C007E2A0D /* Debug */,
+				AA24E5621D15A62C007E2A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA24E5251D15A62B007E2A0D /* Project object */;
+}
