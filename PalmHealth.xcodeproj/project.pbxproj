@@ -92,6 +92,10 @@
 		AA54F09D1D184E16001856EB /* HealthInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA54F09C1D184E16001856EB /* HealthInformationViewController.m */; };
 		AA54F0A51D184EF0001856EB /* HealthInformationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA54F0A41D184EF0001856EB /* HealthInformationCell.m */; };
 		AA54F0AB1D185648001856EB /* HealthInformationDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA54F0AA1D185648001856EB /* HealthInformationDetailsViewController.m */; };
+		AA585A531D30CF2200BADDD6 /* welfare.png in Resources */ = {isa = PBXBuildFile; fileRef = AA585A4F1D30CF2200BADDD6 /* welfare.png */; };
+		AA585A541D30CF2200BADDD6 /* healthService.png in Resources */ = {isa = PBXBuildFile; fileRef = AA585A501D30CF2200BADDD6 /* healthService.png */; };
+		AA585A551D30CF2200BADDD6 /* personalCenter.png in Resources */ = {isa = PBXBuildFile; fileRef = AA585A511D30CF2200BADDD6 /* personalCenter.png */; };
+		AA585A561D30CF2200BADDD6 /* myDoctor.png in Resources */ = {isa = PBXBuildFile; fileRef = AA585A521D30CF2200BADDD6 /* myDoctor.png */; };
 		AACA7C741D2D0DDF000B3A0D /* PersonalCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AACA7C731D2D0DDF000B3A0D /* PersonalCenterCell.m */; };
 		AAE4CE371D2F843800EFE3E9 /* HealthRecordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE4CE361D2F843800EFE3E9 /* HealthRecordsViewController.m */; };
 		AAE4CE3D1D2F844F00EFE3E9 /* MyCouponsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE4CE3C1D2F844F00EFE3E9 /* MyCouponsViewController.m */; };
@@ -333,6 +337,10 @@
 		AA54F0A41D184EF0001856EB /* HealthInformationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthInformationCell.m; sourceTree = "<group>"; };
 		AA54F0A91D185648001856EB /* HealthInformationDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthInformationDetailsViewController.h; sourceTree = "<group>"; };
 		AA54F0AA1D185648001856EB /* HealthInformationDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthInformationDetailsViewController.m; sourceTree = "<group>"; };
+		AA585A4F1D30CF2200BADDD6 /* welfare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welfare.png; sourceTree = "<group>"; };
+		AA585A501D30CF2200BADDD6 /* healthService.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = healthService.png; sourceTree = "<group>"; };
+		AA585A511D30CF2200BADDD6 /* personalCenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personalCenter.png; sourceTree = "<group>"; };
+		AA585A521D30CF2200BADDD6 /* myDoctor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myDoctor.png; sourceTree = "<group>"; };
 		AACA7C721D2D0DDF000B3A0D /* PersonalCenterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterCell.h; sourceTree = "<group>"; };
 		AACA7C731D2D0DDF000B3A0D /* PersonalCenterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterCell.m; sourceTree = "<group>"; };
 		AAE4CE351D2F843800EFE3E9 /* HealthRecordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthRecordsViewController.h; sourceTree = "<group>"; };
@@ -572,6 +580,10 @@
 				AA2371A51D16BD870098C138 /* 4.jpg */,
 				AA2371A61D16BD870098C138 /* 7.jpg */,
 				AA2371A71D16BD870098C138 /* 8.jpg */,
+				AA585A4F1D30CF2200BADDD6 /* welfare.png */,
+				AA585A501D30CF2200BADDD6 /* healthService.png */,
+				AA585A511D30CF2200BADDD6 /* personalCenter.png */,
+				AA585A521D30CF2200BADDD6 /* myDoctor.png */,
 				AA2371021D1639170098C138 /* Common.xcassets */,
 				AA2370F71D1638A80098C138 /* Welfare.xcassets */,
 				AA2370FB1D1638D50098C138 /* MyDoctor.xcassets */,
@@ -1696,6 +1708,7 @@
 				AA2371011D1639080098C138 /* PersonalCenter.xcassets in Resources */,
 				AA2371B21D16BD870098C138 /* 1000.jpg in Resources */,
 				AA2371351D16A7E20098C138 /* HealthService.xcassets in Resources */,
+				AA585A551D30CF2200BADDD6 /* personalCenter.png in Resources */,
 				AA24E5401D15A62C007E2A0D /* LaunchScreen.storyboard in Resources */,
 				AA2370FC1D1638D50098C138 /* MyDoctor.xcassets in Resources */,
 				AA2371B51D16BD870098C138 /* 1.jpg in Resources */,
@@ -1704,9 +1717,11 @@
 				AA2371B71D16BD870098C138 /* 11.jpg in Resources */,
 				AA24E53D1D15A62B007E2A0D /* Assets.xcassets in Resources */,
 				AA2370F81D1638A80098C138 /* Welfare.xcassets in Resources */,
+				AA585A561D30CF2200BADDD6 /* myDoctor.png in Resources */,
 				AA2371B61D16BD870098C138 /* 10.jpeg in Resources */,
 				AAF0E8441D16F5A1002D6600 /* pic4.jpg in Resources */,
 				AA2371B91D16BD870098C138 /* 2.jpg in Resources */,
+				AA585A541D30CF2200BADDD6 /* healthService.png in Resources */,
 				AAF0E8381D16F540002D6600 /* pic1.jpg in Resources */,
 				AAF0E8451D16F5A1002D6600 /* pic7.jpg in Resources */,
 				AA2371B31D16BD870098C138 /* 1001.jpg in Resources */,
@@ -1714,6 +1729,7 @@
 				AA24E53B1D15A62B007E2A0D /* Main.storyboard in Resources */,
 				AAF0E8461D16F5A1002D6600 /* pic6.jpg in Resources */,
 				AAF0E8361D16F53B002D6600 /* pic0.jpg in Resources */,
+				AA585A531D30CF2200BADDD6 /* welfare.png in Resources */,
 				AAF0E83C1D16F547002D6600 /* pic2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
