@@ -10,4 +10,6 @@
 
 @interface PersonalInfomationHelper : NSObject
 
+@property (strong,nonatomic)NSMutableArray *dataAry;
+
 @end

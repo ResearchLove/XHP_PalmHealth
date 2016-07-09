@@ -7,7 +7,10 @@
 //
 
 #import "CommonWebViewController.h"
+#import "WelfareModel.h"
 
 @interface SpringInternationalViewController : CommonWebViewController
+
+@property (strong,nonatomic) WelfareModel *welfareModel;
 
 @end

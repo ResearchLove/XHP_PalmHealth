@@ -7,7 +7,15 @@
 //
 
 #import "CommonTableViewCell.h"
+#import "HealthKnowledgeDetailsModel.h"
 
 @interface HealthKnowledgeDetailsCell : CommonTableViewCell
+
+@property (strong,nonatomic) UILabel *titleLabel;
+@property (strong,nonatomic) UIImageView *titleImageView;
+@property (strong,nonatomic) UILabel *contentsLabel;
+@property (strong,nonatomic) HealthKnowledgeDetailsModel *heaKnoDetModel;
+
++(CGFloat)cellHeightForModel:(HealthKnowledgeDetailsModel *)heaKnoDeaModel;
 
 @end

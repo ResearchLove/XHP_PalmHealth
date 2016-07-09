@@ -7,7 +7,10 @@
 //
 
 #import "CommonTableViewController.h"
+#import "MyDoctorModel.h"
 
 @interface DoctorDetailsViewController : CommonTableViewController
+
+@property (strong,nonatomic) MyDoctorModel *myDoctorModel;
 
 @end

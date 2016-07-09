@@ -7,7 +7,22 @@
 //
 
 #import "CommonTableViewCell.h"
+#import "PersonalInfomationModel.h"
 
-@interface PersonalInfomationCell : CommonTableViewCell
+@interface PersonalInfomationHeaderCell : CommonTableViewCell
+
+@property (strong,nonatomic) UIImageView *userImageView;
+@property (strong,nonatomic) UILabel *userNameLabel;
+
+@property (strong,nonatomic) PersonalInfomationModel *perInfModel;
+
+@end
+
+@interface PersonalInfomationOtherCell : CommonTableViewCell
+
+@property (copy,nonatomic) UILabel *titleLabel;
+@property (copy,nonatomic) UILabel *contentsLabel;
+
+@property (strong,nonatomic) PersonalInfomationModel *perInfModel;
 
 @end

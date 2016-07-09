@@ -10,4 +10,6 @@
 
 @interface DepartmentListHelper : NSObject
 
+@property (strong,nonatomic) NSMutableArray *departmentAry;
+
 @end

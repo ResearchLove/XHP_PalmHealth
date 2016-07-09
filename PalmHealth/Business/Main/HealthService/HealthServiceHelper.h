@@ -10,4 +10,6 @@
 
 @interface HealthServiceHelper : NSObject
 
+@property (nonatomic, strong) NSMutableArray *healthServiceMenuData;
+
 @end

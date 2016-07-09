@@ -10,4 +10,15 @@
 
 @implementation PersonalInfomationModel
 
++(PersonalInfomationModel *)createMenuTitle:(NSString *)title contents:(NSString *)contents
+{
+    PersonalInfomationModel *perInfModel = [[PersonalInfomationModel alloc]init];
+    perInfModel.title = title;
+    perInfModel.contents = contents;
+    return perInfModel;
+
+}
+
+
+
 @end

@@ -10,4 +10,6 @@
 
 @interface HealthKnowledgeListViewController (Data)
 
+-(void)loadDataWithLoadingView:(BOOL)showLoadingView;
+
 @end

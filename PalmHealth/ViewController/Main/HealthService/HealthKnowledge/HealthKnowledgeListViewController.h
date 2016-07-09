@@ -7,7 +7,16 @@
 //
 
 #import "CommonTableViewController.h"
+#import "HealthKnowledgeDataViewModel.h"
+#import "HealthKnowledgeModel.h"
+#import <MBProgressHUD.h>
 
 @interface HealthKnowledgeListViewController : CommonTableViewController
+
+@property (strong,nonatomic)NSMutableArray *dataAry;
+
+@property (strong,nonatomic) HealthKnowledgeDataViewModel *heaKnoDatViewModel;
+
+@property (strong,nonatomic) HealthKnowledgeModel *heaKnoModel;
 
 @end

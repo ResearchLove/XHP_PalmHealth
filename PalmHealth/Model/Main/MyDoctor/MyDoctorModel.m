@@ -7,7 +7,15 @@
 //
 
 #import "MyDoctorModel.h"
+#import "NSString+PinYin.h"
 
 @implementation MyDoctorModel
+
+-(void)setUserName:(NSString *)userName
+{
+    _userName = userName;
+    _pinyin = userName.pinyin;
+    _pinyin = userName.pinyinInitial;
+}
 
 @end

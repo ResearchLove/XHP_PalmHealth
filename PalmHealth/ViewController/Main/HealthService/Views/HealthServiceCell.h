@@ -7,7 +7,13 @@
 //
 
 #import "CommonTableViewCell.h"
+#import "HealthServiceModel.h"
 
 @interface HealthServiceCell : CommonTableViewCell
+
+@property (strong,nonatomic) UIImageView *iconImageView;
+@property (strong,nonatomic) UILabel *titleLabel;
+
+@property (strong,nonatomic) HealthServiceModel *heaSerModel;
 
 @end

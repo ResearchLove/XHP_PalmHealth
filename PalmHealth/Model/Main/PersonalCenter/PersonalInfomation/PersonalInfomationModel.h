@@ -10,4 +10,10 @@
 
 @interface PersonalInfomationModel : NSObject
 
+@property (copy,nonatomic) NSString *title;
+@property (copy,nonatomic) NSString *contents;
+
++(PersonalInfomationModel *)createMenuTitle:(NSString *)title contents:(NSString *)contents;
+
+
 @end

@@ -6,21 +6,21 @@
 //  Copyright © 2016年 HaoHe. All rights reserved.
 //
 
-#import "FriendsCircleVC.h"
+#import "HealthCircleVC.h"
 #import "NavigationBar.h"
 #import "AnswerModel.h"
-#import "FriendsCircleHeaderView.h"
-#import "FriendsCircleFooterView.h"
+#import "HealthCircleHeaderView.h"
+#import "HealthCircleFooterView.h"
 
-@interface FriendsCircleVC ()
+@interface HealthCircleVC ()
 
 @end
 
-@implementation FriendsCircleVC
+@implementation HealthCircleVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.navigationItem setTitle:@"朋友圈"];
+    [self.navigationItem setTitle:@"健康圈"];
     
     [NavigationBar setNavigationLeftButton:self.navigationItem withTarget:self andSelector:@selector(backEvent:)];
     
@@ -41,14 +41,14 @@
     [_friendTableView whc_FrameAuto:WHCAutoRectMake(0, 0, 0, 0)];
     _friendTableView.delegate = self;
     _friendTableView.dataSource = self;
-    [_friendTableView registerClass:[FriendsCircleCell class] forCellReuseIdentifier:kFirendsCircleCellIdentifier];
+    [_friendTableView registerClass:[HealthCircleCell class] forCellReuseIdentifier:kFirendsCircleCellIdentifier];
     _friendTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
-    FriendsCircleHeaderView *headerView = [[FriendsCircleHeaderView alloc]initWithFrame:CGRectMake(0, 0, 0, 300)];
+    HealthCircleHeaderView *headerView = [[HealthCircleHeaderView alloc]initWithFrame:CGRectMake(0, 0, 0, 300)];
     headerView.personModel = _personModel;
     _friendTableView.tableHeaderView = headerView;
     
-    FriendsCircleFooterView *footerView = [[FriendsCircleFooterView alloc]initWithFrame:CGRectMake(0, 0, 0, 40)];
+    HealthCircleFooterView *footerView = [[HealthCircleFooterView alloc]initWithFrame:CGRectMake(0, 0, 0, 40)];
     footerView.titleStr = @"正在加载更多...";
     _friendTableView.tableFooterView = footerView;
  
@@ -132,7 +132,7 @@
     
     _personModel = [[PersonModel alloc]init];
     _personModel.backImage = @"personBack.jpg";
-    _personModel.personName = @"黄晓明";
+    _personModel.personName = @"彭林";
     _personModel.personIcon = @"me.jpg";
     
     for(int i = 0; i < _dateModelCount; i++){
@@ -140,12 +140,12 @@
         FriendsModel *friModel = [FriendsModel new];
         friModel.answerAry = [NSMutableArray array];
         friModel.userImage = @"me.jpg";
-        friModel.userName = @"黄晓明";
+        friModel.userName = @"彭林";
         if (i % 2 == 0) {
-            friModel.content = @"1998年出演个人首部电视剧《爱情不是游戏》，从而进入演艺圈[1]  。2001年因主演古装剧《大汉天子》而获得关注[2]  。2005年起连续10年入选“福布斯中国名人榜”[3]  。2006年主演武侠剧《神雕侠侣》[4]  。2007年凭借民国剧《新上海滩》获得第13届上海电视节白玉兰奖最佳男演员提名";
+            friModel.content = @"南京甲状腺病医学研究院是南京市一家治疗甲状腺疾病综合实力较高的医院，座落于南京市秦淮区光华路海福巷1号，自开诊以来不断发展及完善，检诊设备日益更新，就诊环境整体改善";
             friModel.isHidePraiseView = YES;
         }else{
-            friModel.content = @"2011年成立个人演艺公司黄晓明工作室；除了投资影视剧外，还投资红酒、医院、高尔夫球场等等[19]  。2015年成立上海醇雅明坊公司";
+            friModel.content = @"甲状腺结节是指在甲状腺内的肿块，可随吞咽动作随甲状腺而上下移动，是临床常见的病症，可由多种病因引起。临床上有多种甲状腺疾病，如甲状腺退行性变、炎症、自身免疫以及新生物等都可以表现为结节。甲状腺结节可以单发，也可以多发，多发结节比单发结节的发病率高，但单发结节甲状腺癌的发生率较高。";
             friModel.isHidePraiseView = NO;
         }
         //NSInteger imageCount = 5;
@@ -155,11 +155,11 @@
             [imageAry addObject:[NSString stringWithFormat:@"pic%d.jpg",j]];
             AnswerModel *ansModel = [AnswerModel new];
             if (j % 2) {
-                ansModel.name = [NSString stringWithFormat:@"孙丽%d",j];
-                ansModel.content = @"黄晓明和Angelababy在上海正式举行婚礼的日子";
+                ansModel.name = [NSString stringWithFormat:@"黄侃%d",j];
+                ansModel.content = @"希腊研究人员发现甘菊茶可减少甲状腺良性和恶性病变的产生";
             }else{
-                ansModel.name = [NSString stringWithFormat:@"邓超%d",j];
-                ansModel.content = @"由于已经很久没有一线明星的婚礼了，加上本次婚礼前期宣传和各种筹备都非常盛大";
+                ansModel.name = [NSString stringWithFormat:@"蒋林义%d",j];
+                ansModel.content = @"甲状腺结节可以单发，也可以多发，多发结节比单发结节的发病率高，但单发结节甲状腺癌的发生率较高。甲状腺结节并发于各种甲状腺疾病，如单纯性甲状腺肿、甲状腺炎、甲状腺肿瘤等，其结节有单发或多发，临床上有良恶之分。良性中主要包括结节性甲状腺肿、甲状腺腺瘤等";
             }
             ansModel.isReply = j % 2;
             [friModel.answerAry addObject:ansModel];
@@ -186,8 +186,8 @@
 {
     FriendsModel *friendModel = [_friendModelAry objectAtIndex:indexPath.row];
     
-    FriendsCircleCell *cell = [tableView dequeueReusableCellWithIdentifier:kFirendsCircleCellIdentifier];
-    cell = [[FriendsCircleCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kFirendsCircleCellIdentifier];
+    HealthCircleCell *cell = [tableView dequeueReusableCellWithIdentifier:kFirendsCircleCellIdentifier];
+    cell = [[HealthCircleCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kFirendsCircleCellIdentifier];
     cell.delegate = self;
     cell.row = indexPath.row;
     [cell setFriendsModel:friendModel];
@@ -212,7 +212,7 @@
  *
  *  @param cell
  */
--(void)friendsCircleSupperCell:(FriendsCircleCell *)cell
+-(void)friendsCircleSupperCell:(HealthCircleCell *)cell
 {
     [_friendTableView reloadRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:cell.row inSection:0]] withRowAnimation:UITableViewRowAnimationNone];
     
@@ -225,7 +225,7 @@
  *  @param row
  *  @param commentLabel
  */
--(void)friendsCircleCell:(FriendsCircleCell *)cell clickRow:(NSInteger)row lastCommentLabel:(UIView *)commentLabel
+-(void)friendsCircleCell:(HealthCircleCell *)cell clickRow:(NSInteger)row lastCommentLabel:(UIView *)commentLabel
 {
     [_sendStackView whc_Height:40];
     [_sendTextView becomeFirstResponder];

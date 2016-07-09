@@ -7,7 +7,37 @@
 //
 
 #import "CommonTableViewCell.h"
+#import "MyDoctorModel.h"
 
-@interface DoctorDetailsCell : CommonTableViewCell
+@interface DoctorDetailsOneCell : CommonTableViewCell
+
+@property (strong,nonatomic) UIImageView *userImgeView;
+@property (strong,nonatomic) UILabel *userNmeLabel;
+@property (strong,nonatomic) UILabel *levelLabel;
+@property (strong,nonatomic) UILabel *hospitalLabel;
+
+@property (strong,nonatomic) MyDoctorModel *myDocModel;
+
+
+@end
+
+@interface DoctorDetailsTwoCell : CommonTableViewCell
+
+@property (strong,nonatomic) UILabel *titleLabel;
+@property (strong,nonatomic) UILabel *subTitleLabel;
+
+@property (strong,nonatomic) MyDoctorModel *myDocModel;
+
++(CGFloat)cellHeightForModel:(MyDoctorModel *)myDoctorModel;
+
+@end
+
+@interface DoctorDetailsThreeCell : CommonTableViewCell
+
+@property (strong,nonatomic) UILabel *titleLabel;
+
+@property (assign,nonatomic) NSInteger sectionNumber;
+
+@property (strong,nonatomic) MyDoctorModel *myDocModel;
 
 @end

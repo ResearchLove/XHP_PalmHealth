@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FriendsCircleCell.h"
+#import "HealthCircleCell.h"
 #import "UIView+WHC_AutoLayout.h"
 #import "KeyboradHeaderView.h"
 #import "FriendsModel.h"
@@ -15,7 +15,7 @@
 static  NSString * _Nonnull  kFirendsCircleCellIdentifier = @"FriendCircleCell";
 static  NSInteger kDefaultOnePageDataCount = 10;
 
-@interface FriendsCircleVC : UIViewController <UITableViewDataSource,UITableViewDelegate,UITextViewDelegate,FriendsCircleCellDelegate>
+@interface HealthCircleVC : UIViewController <UITableViewDataSource,UITableViewDelegate,UITextViewDelegate,FriendsCircleCellDelegate>
 
 @property (strong,nonatomic) UITableView *_Nonnull friendTableView;
 @property (strong,nonatomic) NSMutableArray *_Nonnull friendModelAry;
@@ -27,7 +27,7 @@ static  NSInteger kDefaultOnePageDataCount = 10;
 
 @property (assign,nonatomic) NSInteger currentAnswerRow;
 @property (strong,nonatomic) UIView *_Nonnull lastAnswerLabel;
-@property (strong,nonatomic) FriendsCircleCell *_Nonnull currentAnswerCell;
+@property (strong,nonatomic) HealthCircleCell *_Nonnull currentAnswerCell;
 
 @property (strong,nonatomic) UIImageView *_Nonnull downRefreshImageView;
 @property (assign,nonatomic) BOOL refreshing;

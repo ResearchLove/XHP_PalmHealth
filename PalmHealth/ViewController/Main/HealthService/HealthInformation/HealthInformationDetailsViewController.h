@@ -7,7 +7,10 @@
 //
 
 #import "CommonWebViewController.h"
+#import "HealthInformationModel.h"
 
 @interface HealthInformationDetailsViewController : CommonWebViewController
+
+@property (strong,nonatomic) HealthInformationModel *heaInfModel;
 
 @end

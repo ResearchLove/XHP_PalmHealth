@@ -7,7 +7,11 @@
 //
 
 #import "CommonTableViewCell.h"
+#import "HealthKnowledgeModel.h"
 
 @interface HealthKnowledgeCell : CommonTableViewCell
+
+@property (strong,nonatomic) UILabel *titleLabel;
+@property (strong,nonatomic) HealthKnowledgeModel *heaKnoModel;
 
 @end

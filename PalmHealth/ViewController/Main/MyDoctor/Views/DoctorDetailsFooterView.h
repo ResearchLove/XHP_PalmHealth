@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyDoctorModel.h"
 
 @interface DoctorDetailsFooterView : UITableViewHeaderFooterView
+
+@property (strong,nonatomic)UIButton *button;
+@property (strong,nonatomic)MyDoctorModel *myDoctorModel;
 
 @end

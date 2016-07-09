@@ -10,4 +10,6 @@
 
 @interface MyDoctorHeaderView : UITableViewHeaderFooterView
 
+@property (nonatomic,strong) NSString *title;
+
 @end

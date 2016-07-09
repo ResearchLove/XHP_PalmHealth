@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Networking.h"
+#import "DataToDictionary.h"
 
 @interface BaseDataViewModel : NSObject
 

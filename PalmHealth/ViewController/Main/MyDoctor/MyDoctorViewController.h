@@ -10,4 +10,10 @@
 
 @interface MyDoctorViewController : CommonTableViewController
 
+@property (strong,nonatomic)NSMutableArray *funcionGroupAry;
+
+
+@property (nonatomic,strong) NSMutableArray *dataAry;       //格式化的好友列表数据
+@property (strong,nonatomic) NSMutableArray *sectionAry;
+
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "HealthCircleCell.h"
-#import "SmallWeChat-swift.h"
+#import "PalmHealth-swift.h"
 
 
 @implementation AnswerMenuView
@@ -335,7 +335,7 @@
     _upArrowImageView.image = [UIImage imageNamed:@"likeCmtBg"];
      friendsModel.answerAry.count == 0 ? [_upArrowImageView setHidden:YES ]: [_upArrowImageView setHidden:NO ];
     
-    _praiseImageView.image = [UIImage imageNamed:@"like"];
+    _praiseImageView.image = [UIImage imageNamed:@"ff_IconShowAlbum"];
     _praiseUserLabel.text = @"肖海平";
     
     if (friendsModel.isHidePraiseView) {

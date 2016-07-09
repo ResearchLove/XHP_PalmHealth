@@ -7,7 +7,10 @@
 //
 
 #import "CommonWebViewController.h"
+#import "WelfareModel.h"
 
 @interface PutianHospitalViewController : CommonWebViewController
+
+@property (strong,nonatomic) WelfareModel *welfareModel;
 
 @end

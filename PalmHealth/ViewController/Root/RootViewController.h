@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WelfareViewController.h"
+#import "MyDoctorViewController.h"
+#import "HealthServiceViewController.h"
+#import "PersonalCenterViewController.h"
 
 @interface RootViewController : UITabBarController
+
+@property (strong,nonatomic) WelfareViewController *welfareVC;
+@property (strong,nonatomic) MyDoctorViewController *myDoctorVC;
+@property (strong,nonatomic) HealthServiceViewController *healthServiceVC;
+@property (strong,nonatomic) PersonalCenterViewController *personalCenterVC;
 
 @end

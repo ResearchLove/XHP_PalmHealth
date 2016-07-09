@@ -10,4 +10,7 @@
 
 @interface DepartmentListViewController : CommonTableViewController
 
+@property (nonatomic,strong) NSMutableArray *departmentAry;
+@property (nonatomic,strong) NSMutableArray *doctorAry;
+
 @end

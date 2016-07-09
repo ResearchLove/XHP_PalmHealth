@@ -8,6 +8,11 @@
 
 #import "WelfareViewController.h"
 
-@interface WelfareViewController (CollectionView)
+#define         WIDTH_CELL  WIDTH_SCREEN / 3
+
+
+@interface WelfareViewController (CollectionView)<UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+
+-(void)registerCellForCollectionView:(UICollectionView *)collectionView;
 
 @end

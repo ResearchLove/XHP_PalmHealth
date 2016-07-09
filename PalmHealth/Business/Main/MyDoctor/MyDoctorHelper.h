@@ -10,4 +10,10 @@
 
 @interface MyDoctorHelper : NSObject
 
+@property (strong,nonatomic) NSMutableArray *funcionGroupAry;
+
+@property (strong,nonatomic) NSArray *myDoctorListAry;
+@property (nonatomic,strong) NSMutableArray *dataAry;       //格式化的好友列表数据
+@property (strong,nonatomic) NSMutableArray *sectionAry;
+
 @end

@@ -10,4 +10,6 @@
 
 @interface WelfareHeaderCell : UICollectionViewCell
 
+@property (strong,nonatomic) UIImageView *imageView;
+
 @end

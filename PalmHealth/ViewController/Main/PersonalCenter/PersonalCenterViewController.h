@@ -10,4 +10,6 @@
 
 @interface PersonalCenterViewController : CommonTableViewController
 
+@property (strong,nonatomic) NSMutableArray *dataAry;
+
 @end

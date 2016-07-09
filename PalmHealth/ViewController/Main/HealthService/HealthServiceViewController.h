@@ -10,4 +10,6 @@
 
 @interface HealthServiceViewController : CommonTableViewController
 
+@property (strong,nonatomic) NSMutableArray *dataAry;
+
 @end

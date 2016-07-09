@@ -6,8 +6,13 @@
 //  Copyright © 2016年 HaoHeHealth. All rights reserved.
 //
 
-#import "CommonTableViewController.h"
+#import "CommonViewController.h"
+#import "WelfareModel.h"
 
-@interface WelfareViewController : CommonTableViewController
+@interface WelfareViewController : CommonViewController
+
+@property (strong,nonatomic) UICollectionView *collectionView;
+
+@property (strong,nonatomic) NSMutableArray *welfareItemDataAry;
 
 @end

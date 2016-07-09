@@ -10,4 +10,9 @@
 
 @interface HealthServiceModel : NSObject
 
+@property (copy,nonatomic) NSString *iconPath;
+@property (copy,nonatomic) NSString *title;
+
++(HealthServiceModel *)createMenuIconPath:(NSString *)iconPath title:(NSString *)title;
+
 @end

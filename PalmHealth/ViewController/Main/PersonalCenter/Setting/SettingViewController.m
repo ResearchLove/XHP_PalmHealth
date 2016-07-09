@@ -7,6 +7,7 @@
 //
 
 #import "SettingViewController.h"
+#import "NavigationBar.h"
 
 @interface SettingViewController ()
 
@@ -16,7 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.navigationItem setTitle:@"设置"];
+    [NavigationBar setNavigationLeftButton:self.navigationItem withTarget:self andSelector:@selector(backEvent:)];
     // Do any additional setup after loading the view.
+}
+
+-(void)backEvent:(UIButton *)button
+{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

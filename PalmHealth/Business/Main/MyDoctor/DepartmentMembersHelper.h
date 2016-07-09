@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MyDoctorModel.h"
 
 @interface DepartmentMembersHelper : NSObject
+
+@property (strong,nonatomic) NSMutableArray *dataAry;
 
 @end

@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setUrl:_loadWebURL];
     // Do any additional setup after loading the view.
 }
 

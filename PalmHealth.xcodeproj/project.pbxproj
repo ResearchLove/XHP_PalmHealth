@@ -7,6 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A66ADEE93F7B0A9B83A20984 /* libPods-PalmHealth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 283538E74BC93BC421E0B0C9 /* libPods-PalmHealth.a */; };
+		AA214AC71D1CE4FD00563503 /* MyDoctorHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA214AC61D1CE4FD00563503 /* MyDoctorHeaderView.m */; };
+		AA214ACD1D1CE7EC00563503 /* FormattingMyDoctorDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AA214ACC1D1CE7EC00563503 /* FormattingMyDoctorDataHelper.m */; };
+		AA214ADA1D1CE93100563503 /* NSString+PinYin.m in Sources */ = {isa = PBXBuildFile; fileRef = AA214AD71D1CE93100563503 /* NSString+PinYin.m */; };
+		AA214ADB1D1CE93100563503 /* NSString+UrlEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = AA214AD91D1CE93100563503 /* NSString+UrlEncode.m */; };
+		AA214AF91D1D4B0B00563503 /* HealthAnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA214AF81D1D4B0B00563503 /* HealthAnswerViewController.m */; };
+		AA214AFF1D1D4B2800563503 /* HealthBooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA214AFE1D1D4B2800563503 /* HealthBooksViewController.m */; };
+		AA214B021D1D4B3600563503 /* HealthKnowledgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA214B011D1D4B3600563503 /* HealthKnowledgeViewController.m */; };
+		AA2370E31D1633F40098C138 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2370E21D1633F40098C138 /* RootViewController.m */; };
+		AA2370E61D16341E0098C138 /* WelfareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2370E51D16341E0098C138 /* WelfareViewController.m */; };
+		AA2370E91D1634390098C138 /* MyDoctorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2370E81D1634390098C138 /* MyDoctorViewController.m */; };
+		AA2370F51D1635560098C138 /* PersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2370F41D1635560098C138 /* PersonalCenterViewController.m */; };
+		AA2370F81D1638A80098C138 /* Welfare.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2370F71D1638A80098C138 /* Welfare.xcassets */; };
+		AA2370FC1D1638D50098C138 /* MyDoctor.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2370FB1D1638D50098C138 /* MyDoctor.xcassets */; };
+		AA2371011D1639080098C138 /* PersonalCenter.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2371001D1639080098C138 /* PersonalCenter.xcassets */; };
+		AA2371031D1639170098C138 /* Common.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2371021D1639170098C138 /* Common.xcassets */; };
+		AA23710F1D1658BD0098C138 /* HealthServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA23710E1D1658BD0098C138 /* HealthServiceViewController.m */; };
+		AA2371261D16994F0098C138 /* HealthServiceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2371251D16994F0098C138 /* HealthServiceHelper.m */; };
+		AA2371291D1699700098C138 /* HealthServiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2371281D1699700098C138 /* HealthServiceModel.m */; };
+		AA2371331D169EC40098C138 /* HealthServiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2371321D169EC40098C138 /* HealthServiceCell.m */; };
+		AA2371351D16A7E20098C138 /* HealthService.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2371341D16A7E20098C138 /* HealthService.xcassets */; };
+		AA23714F1D16AC420098C138 /* BuyMedicineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA23714E1D16AC420098C138 /* BuyMedicineViewController.m */; };
+		AA2371691D16B5F70098C138 /* HealthCircleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2371611D16B5F70098C138 /* HealthCircleVC.m */; };
+		AA23716A1D16B5F70098C138 /* HealthCircleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2371641D16B5F70098C138 /* HealthCircleCell.m */; };
+		AA23716B1D16B5F70098C138 /* HealthCircleFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2371661D16B5F70098C138 /* HealthCircleFooterView.m */; };
+		AA23716C1D16B5F70098C138 /* HealthCircleHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2371681D16B5F70098C138 /* HealthCircleHeaderView.m */; };
+		AA2371711D16B6DE0098C138 /* AnswerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA23716E1D16B6DE0098C138 /* AnswerModel.m */; };
+		AA2371721D16B6DE0098C138 /* FriendsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2371701D16B6DE0098C138 /* FriendsModel.m */; };
+		AA23718E1D16BAB60098C138 /* ImageDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA23718D1D16BAB60098C138 /* ImageDisplayView.swift */; };
+		AA2371921D16BB460098C138 /* KeyboradHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2371911D16BB460098C138 /* KeyboradHeaderView.m */; };
+		AA2371B11D16BD870098C138 /* TypeSelectorBtnHL_Black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA23719C1D16BD870098C138 /* TypeSelectorBtnHL_Black@2x.png */; };
+		AA2371B21D16BD870098C138 /* 1000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA23719D1D16BD870098C138 /* 1000.jpg */; };
+		AA2371B31D16BD870098C138 /* 1001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA23719E1D16BD870098C138 /* 1001.jpg */; };
+		AA2371B41D16BD870098C138 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA23719F1D16BD870098C138 /* 0.jpg */; };
+		AA2371B51D16BD870098C138 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA2371A01D16BD870098C138 /* 1.jpg */; };
+		AA2371B61D16BD870098C138 /* 10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AA2371A11D16BD870098C138 /* 10.jpeg */; };
+		AA2371B71D16BD870098C138 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA2371A21D16BD870098C138 /* 11.jpg */; };
+		AA2371B81D16BD870098C138 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA2371A31D16BD870098C138 /* 12.jpg */; };
+		AA2371B91D16BD870098C138 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA2371A41D16BD870098C138 /* 2.jpg */; };
+		AA2371BA1D16BD870098C138 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA2371A51D16BD870098C138 /* 4.jpg */; };
+		AA2371BB1D16BD870098C138 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA2371A61D16BD870098C138 /* 7.jpg */; };
+		AA2371BC1D16BD870098C138 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA2371A71D16BD870098C138 /* 8.jpg */; };
+		AA2412C01D21243200C6D458 /* WelfareViewController+CollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2412BF1D21243200C6D458 /* WelfareViewController+CollectionView.m */; };
+		AA2412C31D21259E00C6D458 /* WelfareItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2412C21D21259E00C6D458 /* WelfareItemCell.m */; };
+		AA2412C61D2125DD00C6D458 /* WelfareHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2412C51D2125DD00C6D458 /* WelfareHeaderCell.m */; };
+		AA2412C91D21264A00C6D458 /* WelfareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2412C81D21264A00C6D458 /* WelfareModel.m */; };
+		AA2412CC1D21273000C6D458 /* WelfareHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2412CB1D21273000C6D458 /* WelfareHelper.m */; };
 		AA24E5321D15A62B007E2A0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5311D15A62B007E2A0D /* main.m */; };
 		AA24E5351D15A62B007E2A0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5341D15A62B007E2A0D /* AppDelegate.m */; };
 		AA24E5381D15A62B007E2A0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5371D15A62B007E2A0D /* ViewController.m */; };
@@ -15,6 +62,103 @@
 		AA24E5401D15A62C007E2A0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA24E53E1D15A62C007E2A0D /* LaunchScreen.storyboard */; };
 		AA24E54B1D15A62C007E2A0D /* PalmHealthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E54A1D15A62C007E2A0D /* PalmHealthTests.m */; };
 		AA24E5561D15A62C007E2A0D /* PalmHealthUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5551D15A62C007E2A0D /* PalmHealthUITests.m */; };
+		AA24E5781D15AC0C007E2A0D /* BaseDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E56B1D15AC0C007E2A0D /* BaseDataModel.m */; };
+		AA24E5791D15AC0C007E2A0D /* NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E56E1D15AC0C007E2A0D /* NavigationBar.m */; };
+		AA24E57A1D15AC0C007E2A0D /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5711D15AC0C007E2A0D /* NavigationViewController.m */; };
+		AA24E57B1D15AC0C007E2A0D /* Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5741D15AC0C007E2A0D /* Networking.m */; };
+		AA24E57C1D15AC0C007E2A0D /* SearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5771D15AC0C007E2A0D /* SearchController.m */; };
+		AA24E58C1D15AC17007E2A0D /* CommonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E57F1D15AC17007E2A0D /* CommonTableViewCell.m */; };
+		AA24E58D1D15AC17007E2A0D /* CommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5821D15AC17007E2A0D /* CommonTableViewController.m */; };
+		AA24E58E1D15AC17007E2A0D /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5851D15AC17007E2A0D /* CommonViewController.m */; };
+		AA24E58F1D15AC17007E2A0D /* BaseDataViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5881D15AC17007E2A0D /* BaseDataViewModel.m */; };
+		AA24E5901D15AC17007E2A0D /* CommonWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E58B1D15AC17007E2A0D /* CommonWebViewController.m */; };
+		AA24E59D1D15AE1D007E2A0D /* UIBarButtonItem+Action.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5961D15AE1D007E2A0D /* UIBarButtonItem+Action.m */; };
+		AA24E59E1D15AE1D007E2A0D /* UINavigationController+JZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5991D15AE1D007E2A0D /* UINavigationController+JZExtension.m */; };
+		AA24E59F1D15AE1D007E2A0D /* UINavigationController+StackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E59B1D15AE1D007E2A0D /* UINavigationController+StackManager.m */; };
+		AA24E5A31D15AE57007E2A0D /* UIColor+Chat.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5A21D15AE57007E2A0D /* UIColor+Chat.m */; };
+		AA24E5AB1D15AE96007E2A0D /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5A61D15AE96007E2A0D /* UIView+Extensions.m */; };
+		AA24E5AC1D15AE96007E2A0D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5A81D15AE96007E2A0D /* UIView+Frame.m */; };
+		AA24E5AD1D15AE96007E2A0D /* UIView+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5AA1D15AE96007E2A0D /* UIView+Property.m */; };
+		AA24E5B31D15AECB007E2A0D /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5B01D15AECB007E2A0D /* UIImage+Color.m */; };
+		AA24E5B41D15AECB007E2A0D /* UIImage+Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24E5B21D15AECB007E2A0D /* UIImage+Draw.m */; };
+		AA26CC2F1D1AA10C00EBD73C /* DepartmentMembersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA26CC2E1D1AA10C00EBD73C /* DepartmentMembersViewController.m */; };
+		AA26CC351D1AA20F00EBD73C /* DepartmentMembersHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AA26CC341D1AA20F00EBD73C /* DepartmentMembersHelper.m */; };
+		AA4637D61D24BC0B00B4F686 /* HealthBooksListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4637D51D24BC0B00B4F686 /* HealthBooksListCell.m */; };
+		AA4637DC1D24BC4500B4F686 /* HealthBooksDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4637DB1D24BC4500B4F686 /* HealthBooksDetailsCell.m */; };
+		AA548CB21D19483A0048D707 /* MyDoctorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA548CB11D19483A0048D707 /* MyDoctorModel.m */; };
+		AA548CB51D1953840048D707 /* DepartmentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA548CB41D1953840048D707 /* DepartmentModel.m */; };
+		AA54F08D1D1843E6001856EB /* HealthInformationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AA54F08C1D1843E6001856EB /* HealthInformationHelper.m */; };
+		AA54F0931D18443D001856EB /* HealthInformationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA54F0921D18443D001856EB /* HealthInformationModel.m */; };
+		AA54F09D1D184E16001856EB /* HealthInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA54F09C1D184E16001856EB /* HealthInformationViewController.m */; };
+		AA54F0A51D184EF0001856EB /* HealthInformationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA54F0A41D184EF0001856EB /* HealthInformationCell.m */; };
+		AA54F0AB1D185648001856EB /* HealthInformationDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA54F0AA1D185648001856EB /* HealthInformationDetailsViewController.m */; };
+		AACA7C741D2D0DDF000B3A0D /* PersonalCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AACA7C731D2D0DDF000B3A0D /* PersonalCenterCell.m */; };
+		AAE4CE371D2F843800EFE3E9 /* HealthRecordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE4CE361D2F843800EFE3E9 /* HealthRecordsViewController.m */; };
+		AAE4CE3D1D2F844F00EFE3E9 /* MyCouponsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE4CE3C1D2F844F00EFE3E9 /* MyCouponsViewController.m */; };
+		AAE4CE401D2F846600EFE3E9 /* MyOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE4CE3F1D2F846600EFE3E9 /* MyOrderViewController.m */; };
+		AAE4CE431D2F847000EFE3E9 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE4CE421D2F847000EFE3E9 /* CollectionViewController.m */; };
+		AAE4CE461D2F848000EFE3E9 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE4CE451D2F848000EFE3E9 /* SettingViewController.m */; };
+		AAE4CE4A1D2F85D100EFE3E9 /* PersonalInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE4CE491D2F85D100EFE3E9 /* PersonalInformationViewController.m */; };
+		AAE4CE4E1D2F8B4F00EFE3E9 /* PersonalInfomationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE4CE4D1D2F8B4F00EFE3E9 /* PersonalInfomationModel.m */; };
+		AAE4CE521D2F8F8600EFE3E9 /* PersonalInfomationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE4CE511D2F8F8600EFE3E9 /* PersonalInfomationHelper.m */; };
+		AAE4CE5D1D2F92FC00EFE3E9 /* PersonalInfomationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE4CE5C1D2F92FC00EFE3E9 /* PersonalInfomationCell.m */; };
+		AAEB60311D1D912000B8374D /* HealthKnowledgeDataViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB60301D1D912000B8374D /* HealthKnowledgeDataViewModel.m */; };
+		AAEB60351D1D996B00B8374D /* DataToDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB60341D1D996B00B8374D /* DataToDictionary.m */; };
+		AAEB603B1D1D9E0400B8374D /* HealthKnowledgeViewController+Data.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB603A1D1D9E0400B8374D /* HealthKnowledgeViewController+Data.m */; };
+		AAEB60501D1DA93300B8374D /* HealthKnowledgeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB604F1D1DA93300B8374D /* HealthKnowledgeModel.m */; };
+		AAEB60571D1DB01900B8374D /* HealthKnowledgeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB60561D1DB01900B8374D /* HealthKnowledgeCell.m */; };
+		AAEB832F1D198E870097D233 /* MyDoctorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB832E1D198E870097D233 /* MyDoctorHelper.m */; };
+		AAEB83361D19918E0097D233 /* MyDoctorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB83351D19918E0097D233 /* MyDoctorCell.m */; };
+		AAEB833F1D199EC20097D233 /* MyDoctorSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB833E1D199EC20097D233 /* MyDoctorSearchViewController.m */; };
+		AAEB83421D19A0B00097D233 /* DepartmentListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB83411D19A0B00097D233 /* DepartmentListViewController.m */; };
+		AAEB83451D19A3980097D233 /* DepartmentListHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB83441D19A3980097D233 /* DepartmentListHelper.m */; };
+		AAEB97C61D237C9500ACB6B5 /* DiseaseConsultingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB97C51D237C9500ACB6B5 /* DiseaseConsultingViewController.m */; };
+		AAEB97C91D237CB000ACB6B5 /* HospitalRankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB97C81D237CB000ACB6B5 /* HospitalRankViewController.m */; };
+		AAEB97CC1D237CBD00ACB6B5 /* MakeAppointmentDoctorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB97CB1D237CBD00ACB6B5 /* MakeAppointmentDoctorViewController.m */; };
+		AAEB97CF1D237CC900ACB6B5 /* PutianHospitalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB97CE1D237CC900ACB6B5 /* PutianHospitalViewController.m */; };
+		AAEB97E41D237D1F00ACB6B5 /* VaccinationPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB97E31D237D1F00ACB6B5 /* VaccinationPointViewController.m */; };
+		AAEB97E71D237E9600ACB6B5 /* SpringInternationalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB97E61D237E9600ACB6B5 /* SpringInternationalViewController.m */; };
+		AAEB97EA1D23CBB700ACB6B5 /* HealthBooksDataViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB97E91D23CBB700ACB6B5 /* HealthBooksDataViewModel.m */; };
+		AAEB97ED1D23CBFA00ACB6B5 /* HealthBooksListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB97EC1D23CBFA00ACB6B5 /* HealthBooksListViewController.m */; };
+		AAEB97F01D23CC3200ACB6B5 /* HealthBooksDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB97EF1D23CC3200ACB6B5 /* HealthBooksDetailsViewController.m */; };
+		AAEB97F31D23CC6C00ACB6B5 /* HealthBooksViewController+Data.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB97F21D23CC6C00ACB6B5 /* HealthBooksViewController+Data.m */; };
+		AAEB97F61D23CC9E00ACB6B5 /* HealthBooksListViewController+Data.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB97F51D23CC9E00ACB6B5 /* HealthBooksListViewController+Data.m */; };
+		AAEB97FC1D23CCBF00ACB6B5 /* HealthBooksDetailsViewController+Data.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB97FB1D23CCBF00ACB6B5 /* HealthBooksDetailsViewController+Data.m */; };
+		AAEB97FF1D23CE6000ACB6B5 /* HealthBooksModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB97FE1D23CE6000ACB6B5 /* HealthBooksModel.m */; };
+		AAEB98021D23CE8600ACB6B5 /* HealthBooksListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB98011D23CE8600ACB6B5 /* HealthBooksListModel.m */; };
+		AAEB98051D23CEAE00ACB6B5 /* HealthBooksDetailsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB98041D23CEAE00ACB6B5 /* HealthBooksDetailsModel.m */; };
+		AAEBF1141D1BE791007C0DAD /* DoctorDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEBF1131D1BE791007C0DAD /* DoctorDetailsViewController.m */; };
+		AAEBF1171D1BE7DC007C0DAD /* DoctorDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEBF1161D1BE7DC007C0DAD /* DoctorDetailsCell.m */; };
+		AAEBF11A1D1C0654007C0DAD /* DoctorDetailsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEBF1191D1C0654007C0DAD /* DoctorDetailsWebViewController.m */; };
+		AAEBFC331D1C24C90031EA43 /* DoctorDetailsFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEBFC321D1C24C90031EA43 /* DoctorDetailsFooterView.m */; };
+		AAEBFC3B1D1C37DC0031EA43 /* WHC_ModelSqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEBFC3A1D1C37DC0031EA43 /* WHC_ModelSqlite.m */; };
+		AAEBFC3D1D1C38060031EA43 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEBFC3C1D1C38060031EA43 /* libsqlite3.0.tbd */; };
+		AAF0E8361D16F53B002D6600 /* pic0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAF0E8351D16F53B002D6600 /* pic0.jpg */; };
+		AAF0E8381D16F540002D6600 /* pic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAF0E8371D16F540002D6600 /* pic1.jpg */; };
+		AAF0E83A1D16F543002D6600 /* pic3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAF0E8391D16F543002D6600 /* pic3.jpg */; };
+		AAF0E83C1D16F547002D6600 /* pic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAF0E83B1D16F547002D6600 /* pic2.jpg */; };
+		AAF0E8431D16F5A1002D6600 /* pic5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAF0E83D1D16F5A1002D6600 /* pic5.jpg */; };
+		AAF0E8441D16F5A1002D6600 /* pic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAF0E83E1D16F5A1002D6600 /* pic4.jpg */; };
+		AAF0E8451D16F5A1002D6600 /* pic7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAF0E83F1D16F5A1002D6600 /* pic7.jpg */; };
+		AAF0E8461D16F5A1002D6600 /* pic6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAF0E8401D16F5A1002D6600 /* pic6.jpg */; };
+		AAF0E8471D16F5A1002D6600 /* pic8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AAF0E8411D16F5A1002D6600 /* pic8.jpeg */; };
+		AAF389801D25191B00077CDD /* HealthAnswerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF3897F1D25191B00077CDD /* HealthAnswerListViewController.m */; };
+		AAF389861D25193F00077CDD /* HealthAnswerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF389851D25193F00077CDD /* HealthAnswerDetailsViewController.m */; };
+		AAF389921D2519A200077CDD /* HealthAnswerListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF389911D2519A200077CDD /* HealthAnswerListModel.m */; };
+		AAF389951D251BE400077CDD /* HealthAnswerDataViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF389941D251BE400077CDD /* HealthAnswerDataViewModel.m */; };
+		AAF3899E1D251C4800077CDD /* HealthAnswerDetailsViewController+Data.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF3899D1D251C4800077CDD /* HealthAnswerDetailsViewController+Data.m */; };
+		AAF389A11D251C6D00077CDD /* HealthAnswerListViewController+Data.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF389A01D251C6D00077CDD /* HealthAnswerListViewController+Data.m */; };
+		AAF389A41D251FDA00077CDD /* HealthAnswerViewController+Data.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF389A31D251FDA00077CDD /* HealthAnswerViewController+Data.m */; };
+		AAF3A1CC1D1E5A0D00E35890 /* HealthKnowledgeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF3A1CB1D1E5A0D00E35890 /* HealthKnowledgeListViewController.m */; };
+		AAF3A1CF1D1E5A2A00E35890 /* HealthKnowledgeDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF3A1CE1D1E5A2A00E35890 /* HealthKnowledgeDetailsViewController.m */; };
+		AAF3A1D21D1E5A5400E35890 /* HealthKnowledgeListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF3A1D11D1E5A5400E35890 /* HealthKnowledgeListCell.m */; };
+		AAF3A1D51D1E5A6C00E35890 /* HealthKnowledgeDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF3A1D41D1E5A6C00E35890 /* HealthKnowledgeDetailsCell.m */; };
+		AAF3A1D81D1E5AAD00E35890 /* HealthKnowledgeListViewController+Data.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF3A1D71D1E5AAD00E35890 /* HealthKnowledgeListViewController+Data.m */; };
+		AAF3A1DE1D1E5AEA00E35890 /* HealthKnowledgeDetailsViewController+Data.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF3A1DD1D1E5AEA00E35890 /* HealthKnowledgeDetailsViewController+Data.m */; };
+		AAF3A1E11D1E5B1F00E35890 /* HealthKnowledgeDetailsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF3A1E01D1E5B1F00E35890 /* HealthKnowledgeDetailsModel.m */; };
+		AAF3A1E41D1E5B3400E35890 /* HealthKnowledgeListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF3A1E31D1E5B3400E35890 /* HealthKnowledgeListModel.m */; };
+		AAF62B8C1D2605760078B16F /* PersonalCenterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF62B8B1D2605760078B16F /* PersonalCenterHelper.m */; };
+		AAF62B8F1D2605A40078B16F /* PersonalCenterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF62B8E1D2605A40078B16F /* PersonalCenterModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +179,83 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		283538E74BC93BC421E0B0C9 /* libPods-PalmHealth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PalmHealth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A3F1C3645C571B0E7A9B74 /* Pods-PalmHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PalmHealth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PalmHealth/Pods-PalmHealth.debug.xcconfig"; sourceTree = "<group>"; };
+		AA214AC51D1CE4FD00563503 /* MyDoctorHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDoctorHeaderView.h; sourceTree = "<group>"; };
+		AA214AC61D1CE4FD00563503 /* MyDoctorHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDoctorHeaderView.m; sourceTree = "<group>"; };
+		AA214ACB1D1CE7EC00563503 /* FormattingMyDoctorDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormattingMyDoctorDataHelper.h; sourceTree = "<group>"; };
+		AA214ACC1D1CE7EC00563503 /* FormattingMyDoctorDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormattingMyDoctorDataHelper.m; sourceTree = "<group>"; };
+		AA214AD61D1CE93100563503 /* NSString+PinYin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PinYin.h"; sourceTree = "<group>"; };
+		AA214AD71D1CE93100563503 /* NSString+PinYin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PinYin.m"; sourceTree = "<group>"; };
+		AA214AD81D1CE93100563503 /* NSString+UrlEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UrlEncode.h"; sourceTree = "<group>"; };
+		AA214AD91D1CE93100563503 /* NSString+UrlEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UrlEncode.m"; sourceTree = "<group>"; };
+		AA214AF71D1D4B0B00563503 /* HealthAnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthAnswerViewController.h; sourceTree = "<group>"; };
+		AA214AF81D1D4B0B00563503 /* HealthAnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthAnswerViewController.m; sourceTree = "<group>"; };
+		AA214AFD1D1D4B2800563503 /* HealthBooksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthBooksViewController.h; sourceTree = "<group>"; };
+		AA214AFE1D1D4B2800563503 /* HealthBooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthBooksViewController.m; sourceTree = "<group>"; };
+		AA214B001D1D4B3600563503 /* HealthKnowledgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthKnowledgeViewController.h; sourceTree = "<group>"; };
+		AA214B011D1D4B3600563503 /* HealthKnowledgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthKnowledgeViewController.m; sourceTree = "<group>"; };
+		AA2370E11D1633F40098C138 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		AA2370E21D1633F40098C138 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		AA2370E41D16341E0098C138 /* WelfareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelfareViewController.h; sourceTree = "<group>"; };
+		AA2370E51D16341E0098C138 /* WelfareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelfareViewController.m; sourceTree = "<group>"; };
+		AA2370E71D1634390098C138 /* MyDoctorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDoctorViewController.h; sourceTree = "<group>"; };
+		AA2370E81D1634390098C138 /* MyDoctorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDoctorViewController.m; sourceTree = "<group>"; };
+		AA2370F31D1635560098C138 /* PersonalCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterViewController.h; sourceTree = "<group>"; };
+		AA2370F41D1635560098C138 /* PersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterViewController.m; sourceTree = "<group>"; };
+		AA2370F71D1638A80098C138 /* Welfare.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Welfare.xcassets; sourceTree = "<group>"; };
+		AA2370FB1D1638D50098C138 /* MyDoctor.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MyDoctor.xcassets; sourceTree = "<group>"; };
+		AA2371001D1639080098C138 /* PersonalCenter.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PersonalCenter.xcassets; sourceTree = "<group>"; };
+		AA2371021D1639170098C138 /* Common.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Common.xcassets; sourceTree = "<group>"; };
+		AA23710D1D1658BD0098C138 /* HealthServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthServiceViewController.h; sourceTree = "<group>"; };
+		AA23710E1D1658BD0098C138 /* HealthServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthServiceViewController.m; sourceTree = "<group>"; };
+		AA2371241D16994F0098C138 /* HealthServiceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthServiceHelper.h; sourceTree = "<group>"; };
+		AA2371251D16994F0098C138 /* HealthServiceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthServiceHelper.m; sourceTree = "<group>"; };
+		AA2371271D1699700098C138 /* HealthServiceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthServiceModel.h; sourceTree = "<group>"; };
+		AA2371281D1699700098C138 /* HealthServiceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthServiceModel.m; sourceTree = "<group>"; };
+		AA2371311D169EC40098C138 /* HealthServiceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthServiceCell.h; sourceTree = "<group>"; };
+		AA2371321D169EC40098C138 /* HealthServiceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthServiceCell.m; sourceTree = "<group>"; };
+		AA2371341D16A7E20098C138 /* HealthService.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = HealthService.xcassets; sourceTree = "<group>"; };
+		AA23714D1D16AC420098C138 /* BuyMedicineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyMedicineViewController.h; sourceTree = "<group>"; };
+		AA23714E1D16AC420098C138 /* BuyMedicineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyMedicineViewController.m; sourceTree = "<group>"; };
+		AA2371601D16B5F70098C138 /* HealthCircleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthCircleVC.h; sourceTree = "<group>"; };
+		AA2371611D16B5F70098C138 /* HealthCircleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthCircleVC.m; sourceTree = "<group>"; };
+		AA2371631D16B5F70098C138 /* HealthCircleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthCircleCell.h; sourceTree = "<group>"; };
+		AA2371641D16B5F70098C138 /* HealthCircleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthCircleCell.m; sourceTree = "<group>"; };
+		AA2371651D16B5F70098C138 /* HealthCircleFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthCircleFooterView.h; sourceTree = "<group>"; };
+		AA2371661D16B5F70098C138 /* HealthCircleFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthCircleFooterView.m; sourceTree = "<group>"; };
+		AA2371671D16B5F70098C138 /* HealthCircleHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthCircleHeaderView.h; sourceTree = "<group>"; };
+		AA2371681D16B5F70098C138 /* HealthCircleHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthCircleHeaderView.m; sourceTree = "<group>"; };
+		AA23716D1D16B6DE0098C138 /* AnswerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerModel.h; sourceTree = "<group>"; };
+		AA23716E1D16B6DE0098C138 /* AnswerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerModel.m; sourceTree = "<group>"; };
+		AA23716F1D16B6DE0098C138 /* FriendsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsModel.h; sourceTree = "<group>"; };
+		AA2371701D16B6DE0098C138 /* FriendsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsModel.m; sourceTree = "<group>"; };
+		AA23718B1D16BA940098C138 /* PalmHealth-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PalmHealth-Bridging-Header.h"; sourceTree = "<group>"; };
+		AA23718D1D16BAB60098C138 /* ImageDisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDisplayView.swift; sourceTree = "<group>"; };
+		AA2371901D16BB460098C138 /* KeyboradHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboradHeaderView.h; sourceTree = "<group>"; };
+		AA2371911D16BB460098C138 /* KeyboradHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboradHeaderView.m; sourceTree = "<group>"; };
+		AA23719C1D16BD870098C138 /* TypeSelectorBtnHL_Black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TypeSelectorBtnHL_Black@2x.png"; sourceTree = "<group>"; };
+		AA23719D1D16BD870098C138 /* 1000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1000.jpg; sourceTree = "<group>"; };
+		AA23719E1D16BD870098C138 /* 1001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1001.jpg; sourceTree = "<group>"; };
+		AA23719F1D16BD870098C138 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		AA2371A01D16BD870098C138 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		AA2371A11D16BD870098C138 /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpeg; sourceTree = "<group>"; };
+		AA2371A21D16BD870098C138 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		AA2371A31D16BD870098C138 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		AA2371A41D16BD870098C138 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		AA2371A51D16BD870098C138 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		AA2371A61D16BD870098C138 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		AA2371A71D16BD870098C138 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		AA2412BE1D21243200C6D458 /* WelfareViewController+CollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WelfareViewController+CollectionView.h"; sourceTree = "<group>"; };
+		AA2412BF1D21243200C6D458 /* WelfareViewController+CollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WelfareViewController+CollectionView.m"; sourceTree = "<group>"; };
+		AA2412C11D21259E00C6D458 /* WelfareItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelfareItemCell.h; sourceTree = "<group>"; };
+		AA2412C21D21259E00C6D458 /* WelfareItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelfareItemCell.m; sourceTree = "<group>"; };
+		AA2412C41D2125DD00C6D458 /* WelfareHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelfareHeaderCell.h; sourceTree = "<group>"; };
+		AA2412C51D2125DD00C6D458 /* WelfareHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelfareHeaderCell.m; sourceTree = "<group>"; };
+		AA2412C71D21264A00C6D458 /* WelfareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelfareModel.h; sourceTree = "<group>"; };
+		AA2412C81D21264A00C6D458 /* WelfareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelfareModel.m; sourceTree = "<group>"; };
+		AA2412CA1D21273000C6D458 /* WelfareHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelfareHelper.h; sourceTree = "<group>"; };
+		AA2412CB1D21273000C6D458 /* WelfareHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelfareHelper.m; sourceTree = "<group>"; };
 		AA24E52D1D15A62B007E2A0D /* PalmHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PalmHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA24E5311D15A62B007E2A0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA24E5331D15A62B007E2A0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +272,192 @@
 		AA24E5511D15A62C007E2A0D /* PalmHealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PalmHealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA24E5551D15A62C007E2A0D /* PalmHealthUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalmHealthUITests.m; sourceTree = "<group>"; };
 		AA24E5571D15A62C007E2A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA24E56A1D15AC0C007E2A0D /* BaseDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDataModel.h; sourceTree = "<group>"; };
+		AA24E56B1D15AC0C007E2A0D /* BaseDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDataModel.m; sourceTree = "<group>"; };
+		AA24E56D1D15AC0C007E2A0D /* NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBar.h; sourceTree = "<group>"; };
+		AA24E56E1D15AC0C007E2A0D /* NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBar.m; sourceTree = "<group>"; };
+		AA24E5701D15AC0C007E2A0D /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		AA24E5711D15AC0C007E2A0D /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		AA24E5731D15AC0C007E2A0D /* Networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Networking.h; sourceTree = "<group>"; };
+		AA24E5741D15AC0C007E2A0D /* Networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Networking.m; sourceTree = "<group>"; };
+		AA24E5761D15AC0C007E2A0D /* SearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchController.h; sourceTree = "<group>"; };
+		AA24E5771D15AC0C007E2A0D /* SearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchController.m; sourceTree = "<group>"; };
+		AA24E57E1D15AC17007E2A0D /* CommonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTableViewCell.h; sourceTree = "<group>"; };
+		AA24E57F1D15AC17007E2A0D /* CommonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableViewCell.m; sourceTree = "<group>"; };
+		AA24E5811D15AC17007E2A0D /* CommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTableViewController.h; sourceTree = "<group>"; };
+		AA24E5821D15AC17007E2A0D /* CommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableViewController.m; sourceTree = "<group>"; };
+		AA24E5841D15AC17007E2A0D /* CommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonViewController.h; sourceTree = "<group>"; };
+		AA24E5851D15AC17007E2A0D /* CommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonViewController.m; sourceTree = "<group>"; };
+		AA24E5871D15AC17007E2A0D /* BaseDataViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDataViewModel.h; sourceTree = "<group>"; };
+		AA24E5881D15AC17007E2A0D /* BaseDataViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDataViewModel.m; sourceTree = "<group>"; };
+		AA24E58A1D15AC17007E2A0D /* CommonWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonWebViewController.h; sourceTree = "<group>"; };
+		AA24E58B1D15AC17007E2A0D /* CommonWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonWebViewController.m; sourceTree = "<group>"; };
+		AA24E5911D15ACA9007E2A0D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AA24E5951D15AE1D007E2A0D /* UIBarButtonItem+Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Action.h"; sourceTree = "<group>"; };
+		AA24E5961D15AE1D007E2A0D /* UIBarButtonItem+Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Action.m"; sourceTree = "<group>"; };
+		AA24E5981D15AE1D007E2A0D /* UINavigationController+JZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+JZExtension.h"; sourceTree = "<group>"; };
+		AA24E5991D15AE1D007E2A0D /* UINavigationController+JZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+JZExtension.m"; sourceTree = "<group>"; };
+		AA24E59A1D15AE1D007E2A0D /* UINavigationController+StackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+StackManager.h"; sourceTree = "<group>"; };
+		AA24E59B1D15AE1D007E2A0D /* UINavigationController+StackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+StackManager.m"; sourceTree = "<group>"; };
+		AA24E5A11D15AE57007E2A0D /* UIColor+Chat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Chat.h"; sourceTree = "<group>"; };
+		AA24E5A21D15AE57007E2A0D /* UIColor+Chat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Chat.m"; sourceTree = "<group>"; };
+		AA24E5A51D15AE96007E2A0D /* UIView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extensions.h"; sourceTree = "<group>"; };
+		AA24E5A61D15AE96007E2A0D /* UIView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extensions.m"; sourceTree = "<group>"; };
+		AA24E5A71D15AE96007E2A0D /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		AA24E5A81D15AE96007E2A0D /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		AA24E5A91D15AE96007E2A0D /* UIView+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Property.h"; sourceTree = "<group>"; };
+		AA24E5AA1D15AE96007E2A0D /* UIView+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Property.m"; sourceTree = "<group>"; };
+		AA24E5AF1D15AECB007E2A0D /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		AA24E5B01D15AECB007E2A0D /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		AA24E5B11D15AECB007E2A0D /* UIImage+Draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Draw.h"; sourceTree = "<group>"; };
+		AA24E5B21D15AECB007E2A0D /* UIImage+Draw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Draw.m"; sourceTree = "<group>"; };
+		AA26CC2D1D1AA10C00EBD73C /* DepartmentMembersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartmentMembersViewController.h; sourceTree = "<group>"; };
+		AA26CC2E1D1AA10C00EBD73C /* DepartmentMembersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartmentMembersViewController.m; sourceTree = "<group>"; };
+		AA26CC331D1AA20F00EBD73C /* DepartmentMembersHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartmentMembersHelper.h; sourceTree = "<group>"; };
+		AA26CC341D1AA20F00EBD73C /* DepartmentMembersHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartmentMembersHelper.m; sourceTree = "<group>"; };
+		AA4637D41D24BC0B00B4F686 /* HealthBooksListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthBooksListCell.h; sourceTree = "<group>"; };
+		AA4637D51D24BC0B00B4F686 /* HealthBooksListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthBooksListCell.m; sourceTree = "<group>"; };
+		AA4637DA1D24BC4500B4F686 /* HealthBooksDetailsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthBooksDetailsCell.h; sourceTree = "<group>"; };
+		AA4637DB1D24BC4500B4F686 /* HealthBooksDetailsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthBooksDetailsCell.m; sourceTree = "<group>"; };
+		AA548CB01D19483A0048D707 /* MyDoctorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDoctorModel.h; sourceTree = "<group>"; };
+		AA548CB11D19483A0048D707 /* MyDoctorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDoctorModel.m; sourceTree = "<group>"; };
+		AA548CB31D1953840048D707 /* DepartmentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartmentModel.h; sourceTree = "<group>"; };
+		AA548CB41D1953840048D707 /* DepartmentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartmentModel.m; sourceTree = "<group>"; };
+		AA54F08B1D1843E6001856EB /* HealthInformationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthInformationHelper.h; sourceTree = "<group>"; };
+		AA54F08C1D1843E6001856EB /* HealthInformationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthInformationHelper.m; sourceTree = "<group>"; };
+		AA54F0911D18443D001856EB /* HealthInformationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthInformationModel.h; sourceTree = "<group>"; };
+		AA54F0921D18443D001856EB /* HealthInformationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthInformationModel.m; sourceTree = "<group>"; };
+		AA54F09B1D184E16001856EB /* HealthInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthInformationViewController.h; sourceTree = "<group>"; };
+		AA54F09C1D184E16001856EB /* HealthInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthInformationViewController.m; sourceTree = "<group>"; };
+		AA54F0A31D184EF0001856EB /* HealthInformationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthInformationCell.h; sourceTree = "<group>"; };
+		AA54F0A41D184EF0001856EB /* HealthInformationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthInformationCell.m; sourceTree = "<group>"; };
+		AA54F0A91D185648001856EB /* HealthInformationDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthInformationDetailsViewController.h; sourceTree = "<group>"; };
+		AA54F0AA1D185648001856EB /* HealthInformationDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthInformationDetailsViewController.m; sourceTree = "<group>"; };
+		AACA7C721D2D0DDF000B3A0D /* PersonalCenterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterCell.h; sourceTree = "<group>"; };
+		AACA7C731D2D0DDF000B3A0D /* PersonalCenterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterCell.m; sourceTree = "<group>"; };
+		AAE4CE351D2F843800EFE3E9 /* HealthRecordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthRecordsViewController.h; sourceTree = "<group>"; };
+		AAE4CE361D2F843800EFE3E9 /* HealthRecordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthRecordsViewController.m; sourceTree = "<group>"; };
+		AAE4CE3B1D2F844F00EFE3E9 /* MyCouponsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCouponsViewController.h; sourceTree = "<group>"; };
+		AAE4CE3C1D2F844F00EFE3E9 /* MyCouponsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCouponsViewController.m; sourceTree = "<group>"; };
+		AAE4CE3E1D2F846600EFE3E9 /* MyOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOrderViewController.h; sourceTree = "<group>"; };
+		AAE4CE3F1D2F846600EFE3E9 /* MyOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOrderViewController.m; sourceTree = "<group>"; };
+		AAE4CE411D2F847000EFE3E9 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		AAE4CE421D2F847000EFE3E9 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		AAE4CE441D2F848000EFE3E9 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		AAE4CE451D2F848000EFE3E9 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		AAE4CE481D2F85D100EFE3E9 /* PersonalInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInformationViewController.h; sourceTree = "<group>"; };
+		AAE4CE491D2F85D100EFE3E9 /* PersonalInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInformationViewController.m; sourceTree = "<group>"; };
+		AAE4CE4C1D2F8B4F00EFE3E9 /* PersonalInfomationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInfomationModel.h; sourceTree = "<group>"; };
+		AAE4CE4D1D2F8B4F00EFE3E9 /* PersonalInfomationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInfomationModel.m; sourceTree = "<group>"; };
+		AAE4CE501D2F8F8600EFE3E9 /* PersonalInfomationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInfomationHelper.h; sourceTree = "<group>"; };
+		AAE4CE511D2F8F8600EFE3E9 /* PersonalInfomationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInfomationHelper.m; sourceTree = "<group>"; };
+		AAE4CE5B1D2F92FC00EFE3E9 /* PersonalInfomationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInfomationCell.h; sourceTree = "<group>"; };
+		AAE4CE5C1D2F92FC00EFE3E9 /* PersonalInfomationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInfomationCell.m; sourceTree = "<group>"; };
+		AAEB602F1D1D912000B8374D /* HealthKnowledgeDataViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthKnowledgeDataViewModel.h; sourceTree = "<group>"; };
+		AAEB60301D1D912000B8374D /* HealthKnowledgeDataViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthKnowledgeDataViewModel.m; sourceTree = "<group>"; };
+		AAEB60331D1D996B00B8374D /* DataToDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataToDictionary.h; sourceTree = "<group>"; };
+		AAEB60341D1D996B00B8374D /* DataToDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataToDictionary.m; sourceTree = "<group>"; };
+		AAEB60391D1D9E0400B8374D /* HealthKnowledgeViewController+Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HealthKnowledgeViewController+Data.h"; sourceTree = "<group>"; };
+		AAEB603A1D1D9E0400B8374D /* HealthKnowledgeViewController+Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HealthKnowledgeViewController+Data.m"; sourceTree = "<group>"; };
+		AAEB604E1D1DA93300B8374D /* HealthKnowledgeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthKnowledgeModel.h; sourceTree = "<group>"; };
+		AAEB604F1D1DA93300B8374D /* HealthKnowledgeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthKnowledgeModel.m; sourceTree = "<group>"; };
+		AAEB60551D1DB01900B8374D /* HealthKnowledgeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthKnowledgeCell.h; sourceTree = "<group>"; };
+		AAEB60561D1DB01900B8374D /* HealthKnowledgeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthKnowledgeCell.m; sourceTree = "<group>"; };
+		AAEB832D1D198E870097D233 /* MyDoctorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDoctorHelper.h; sourceTree = "<group>"; };
+		AAEB832E1D198E870097D233 /* MyDoctorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDoctorHelper.m; sourceTree = "<group>"; };
+		AAEB83341D19918E0097D233 /* MyDoctorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDoctorCell.h; sourceTree = "<group>"; };
+		AAEB83351D19918E0097D233 /* MyDoctorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDoctorCell.m; sourceTree = "<group>"; };
+		AAEB833D1D199EC20097D233 /* MyDoctorSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDoctorSearchViewController.h; sourceTree = "<group>"; };
+		AAEB833E1D199EC20097D233 /* MyDoctorSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDoctorSearchViewController.m; sourceTree = "<group>"; };
+		AAEB83401D19A0B00097D233 /* DepartmentListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartmentListViewController.h; sourceTree = "<group>"; };
+		AAEB83411D19A0B00097D233 /* DepartmentListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartmentListViewController.m; sourceTree = "<group>"; };
+		AAEB83431D19A3980097D233 /* DepartmentListHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartmentListHelper.h; sourceTree = "<group>"; };
+		AAEB83441D19A3980097D233 /* DepartmentListHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartmentListHelper.m; sourceTree = "<group>"; };
+		AAEB97C41D237C9500ACB6B5 /* DiseaseConsultingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiseaseConsultingViewController.h; sourceTree = "<group>"; };
+		AAEB97C51D237C9500ACB6B5 /* DiseaseConsultingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiseaseConsultingViewController.m; sourceTree = "<group>"; };
+		AAEB97C71D237CB000ACB6B5 /* HospitalRankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalRankViewController.h; sourceTree = "<group>"; };
+		AAEB97C81D237CB000ACB6B5 /* HospitalRankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalRankViewController.m; sourceTree = "<group>"; };
+		AAEB97CA1D237CBD00ACB6B5 /* MakeAppointmentDoctorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeAppointmentDoctorViewController.h; sourceTree = "<group>"; };
+		AAEB97CB1D237CBD00ACB6B5 /* MakeAppointmentDoctorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeAppointmentDoctorViewController.m; sourceTree = "<group>"; };
+		AAEB97CD1D237CC900ACB6B5 /* PutianHospitalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PutianHospitalViewController.h; sourceTree = "<group>"; };
+		AAEB97CE1D237CC900ACB6B5 /* PutianHospitalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PutianHospitalViewController.m; sourceTree = "<group>"; };
+		AAEB97E21D237D1F00ACB6B5 /* VaccinationPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VaccinationPointViewController.h; sourceTree = "<group>"; };
+		AAEB97E31D237D1F00ACB6B5 /* VaccinationPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VaccinationPointViewController.m; sourceTree = "<group>"; };
+		AAEB97E51D237E9600ACB6B5 /* SpringInternationalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringInternationalViewController.h; sourceTree = "<group>"; };
+		AAEB97E61D237E9600ACB6B5 /* SpringInternationalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringInternationalViewController.m; sourceTree = "<group>"; };
+		AAEB97E81D23CBB700ACB6B5 /* HealthBooksDataViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthBooksDataViewModel.h; sourceTree = "<group>"; };
+		AAEB97E91D23CBB700ACB6B5 /* HealthBooksDataViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthBooksDataViewModel.m; sourceTree = "<group>"; };
+		AAEB97EB1D23CBFA00ACB6B5 /* HealthBooksListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthBooksListViewController.h; sourceTree = "<group>"; };
+		AAEB97EC1D23CBFA00ACB6B5 /* HealthBooksListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthBooksListViewController.m; sourceTree = "<group>"; };
+		AAEB97EE1D23CC3200ACB6B5 /* HealthBooksDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthBooksDetailsViewController.h; sourceTree = "<group>"; };
+		AAEB97EF1D23CC3200ACB6B5 /* HealthBooksDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthBooksDetailsViewController.m; sourceTree = "<group>"; };
+		AAEB97F11D23CC6C00ACB6B5 /* HealthBooksViewController+Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HealthBooksViewController+Data.h"; sourceTree = "<group>"; };
+		AAEB97F21D23CC6C00ACB6B5 /* HealthBooksViewController+Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HealthBooksViewController+Data.m"; sourceTree = "<group>"; };
+		AAEB97F41D23CC9E00ACB6B5 /* HealthBooksListViewController+Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HealthBooksListViewController+Data.h"; sourceTree = "<group>"; };
+		AAEB97F51D23CC9E00ACB6B5 /* HealthBooksListViewController+Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HealthBooksListViewController+Data.m"; sourceTree = "<group>"; };
+		AAEB97FA1D23CCBF00ACB6B5 /* HealthBooksDetailsViewController+Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HealthBooksDetailsViewController+Data.h"; sourceTree = "<group>"; };
+		AAEB97FB1D23CCBF00ACB6B5 /* HealthBooksDetailsViewController+Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HealthBooksDetailsViewController+Data.m"; sourceTree = "<group>"; };
+		AAEB97FD1D23CE6000ACB6B5 /* HealthBooksModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthBooksModel.h; sourceTree = "<group>"; };
+		AAEB97FE1D23CE6000ACB6B5 /* HealthBooksModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthBooksModel.m; sourceTree = "<group>"; };
+		AAEB98001D23CE8600ACB6B5 /* HealthBooksListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthBooksListModel.h; sourceTree = "<group>"; };
+		AAEB98011D23CE8600ACB6B5 /* HealthBooksListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthBooksListModel.m; sourceTree = "<group>"; };
+		AAEB98031D23CEAE00ACB6B5 /* HealthBooksDetailsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthBooksDetailsModel.h; sourceTree = "<group>"; };
+		AAEB98041D23CEAE00ACB6B5 /* HealthBooksDetailsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthBooksDetailsModel.m; sourceTree = "<group>"; };
+		AAEBF1121D1BE791007C0DAD /* DoctorDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorDetailsViewController.h; sourceTree = "<group>"; };
+		AAEBF1131D1BE791007C0DAD /* DoctorDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorDetailsViewController.m; sourceTree = "<group>"; };
+		AAEBF1151D1BE7DC007C0DAD /* DoctorDetailsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorDetailsCell.h; sourceTree = "<group>"; };
+		AAEBF1161D1BE7DC007C0DAD /* DoctorDetailsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorDetailsCell.m; sourceTree = "<group>"; };
+		AAEBF1181D1C0654007C0DAD /* DoctorDetailsWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorDetailsWebViewController.h; sourceTree = "<group>"; };
+		AAEBF1191D1C0654007C0DAD /* DoctorDetailsWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorDetailsWebViewController.m; sourceTree = "<group>"; };
+		AAEBFC311D1C24C90031EA43 /* DoctorDetailsFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorDetailsFooterView.h; sourceTree = "<group>"; };
+		AAEBFC321D1C24C90031EA43 /* DoctorDetailsFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorDetailsFooterView.m; sourceTree = "<group>"; };
+		AAEBFC391D1C37DC0031EA43 /* WHC_ModelSqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHC_ModelSqlite.h; sourceTree = "<group>"; };
+		AAEBFC3A1D1C37DC0031EA43 /* WHC_ModelSqlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_ModelSqlite.m; sourceTree = "<group>"; };
+		AAEBFC3C1D1C38060031EA43 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		AAF0E8351D16F53B002D6600 /* pic0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic0.jpg; sourceTree = "<group>"; };
+		AAF0E8371D16F540002D6600 /* pic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic1.jpg; sourceTree = "<group>"; };
+		AAF0E8391D16F543002D6600 /* pic3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic3.jpg; sourceTree = "<group>"; };
+		AAF0E83B1D16F547002D6600 /* pic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic2.jpg; sourceTree = "<group>"; };
+		AAF0E83D1D16F5A1002D6600 /* pic5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic5.jpg; sourceTree = "<group>"; };
+		AAF0E83E1D16F5A1002D6600 /* pic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic4.jpg; sourceTree = "<group>"; };
+		AAF0E83F1D16F5A1002D6600 /* pic7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic7.jpg; sourceTree = "<group>"; };
+		AAF0E8401D16F5A1002D6600 /* pic6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic6.jpg; sourceTree = "<group>"; };
+		AAF0E8411D16F5A1002D6600 /* pic8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic8.jpeg; sourceTree = "<group>"; };
+		AAF3897E1D25191B00077CDD /* HealthAnswerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthAnswerListViewController.h; sourceTree = "<group>"; };
+		AAF3897F1D25191B00077CDD /* HealthAnswerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthAnswerListViewController.m; sourceTree = "<group>"; };
+		AAF389841D25193F00077CDD /* HealthAnswerDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthAnswerDetailsViewController.h; sourceTree = "<group>"; };
+		AAF389851D25193F00077CDD /* HealthAnswerDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthAnswerDetailsViewController.m; sourceTree = "<group>"; };
+		AAF389901D2519A200077CDD /* HealthAnswerListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthAnswerListModel.h; sourceTree = "<group>"; };
+		AAF389911D2519A200077CDD /* HealthAnswerListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthAnswerListModel.m; sourceTree = "<group>"; };
+		AAF389931D251BE400077CDD /* HealthAnswerDataViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthAnswerDataViewModel.h; sourceTree = "<group>"; };
+		AAF389941D251BE400077CDD /* HealthAnswerDataViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthAnswerDataViewModel.m; sourceTree = "<group>"; };
+		AAF3899C1D251C4800077CDD /* HealthAnswerDetailsViewController+Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HealthAnswerDetailsViewController+Data.h"; sourceTree = "<group>"; };
+		AAF3899D1D251C4800077CDD /* HealthAnswerDetailsViewController+Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HealthAnswerDetailsViewController+Data.m"; sourceTree = "<group>"; };
+		AAF3899F1D251C6D00077CDD /* HealthAnswerListViewController+Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HealthAnswerListViewController+Data.h"; sourceTree = "<group>"; };
+		AAF389A01D251C6D00077CDD /* HealthAnswerListViewController+Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HealthAnswerListViewController+Data.m"; sourceTree = "<group>"; };
+		AAF389A21D251FDA00077CDD /* HealthAnswerViewController+Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HealthAnswerViewController+Data.h"; sourceTree = "<group>"; };
+		AAF389A31D251FDA00077CDD /* HealthAnswerViewController+Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HealthAnswerViewController+Data.m"; sourceTree = "<group>"; };
+		AAF3A1CA1D1E5A0D00E35890 /* HealthKnowledgeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthKnowledgeListViewController.h; sourceTree = "<group>"; };
+		AAF3A1CB1D1E5A0D00E35890 /* HealthKnowledgeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthKnowledgeListViewController.m; sourceTree = "<group>"; };
+		AAF3A1CD1D1E5A2A00E35890 /* HealthKnowledgeDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthKnowledgeDetailsViewController.h; sourceTree = "<group>"; };
+		AAF3A1CE1D1E5A2A00E35890 /* HealthKnowledgeDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthKnowledgeDetailsViewController.m; sourceTree = "<group>"; };
+		AAF3A1D01D1E5A5400E35890 /* HealthKnowledgeListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthKnowledgeListCell.h; sourceTree = "<group>"; };
+		AAF3A1D11D1E5A5400E35890 /* HealthKnowledgeListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthKnowledgeListCell.m; sourceTree = "<group>"; };
+		AAF3A1D31D1E5A6C00E35890 /* HealthKnowledgeDetailsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthKnowledgeDetailsCell.h; sourceTree = "<group>"; };
+		AAF3A1D41D1E5A6C00E35890 /* HealthKnowledgeDetailsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthKnowledgeDetailsCell.m; sourceTree = "<group>"; };
+		AAF3A1D61D1E5AAD00E35890 /* HealthKnowledgeListViewController+Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HealthKnowledgeListViewController+Data.h"; sourceTree = "<group>"; };
+		AAF3A1D71D1E5AAD00E35890 /* HealthKnowledgeListViewController+Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HealthKnowledgeListViewController+Data.m"; sourceTree = "<group>"; };
+		AAF3A1DC1D1E5AEA00E35890 /* HealthKnowledgeDetailsViewController+Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HealthKnowledgeDetailsViewController+Data.h"; sourceTree = "<group>"; };
+		AAF3A1DD1D1E5AEA00E35890 /* HealthKnowledgeDetailsViewController+Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HealthKnowledgeDetailsViewController+Data.m"; sourceTree = "<group>"; };
+		AAF3A1DF1D1E5B1F00E35890 /* HealthKnowledgeDetailsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthKnowledgeDetailsModel.h; sourceTree = "<group>"; };
+		AAF3A1E01D1E5B1F00E35890 /* HealthKnowledgeDetailsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthKnowledgeDetailsModel.m; sourceTree = "<group>"; };
+		AAF3A1E21D1E5B3400E35890 /* HealthKnowledgeListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthKnowledgeListModel.h; sourceTree = "<group>"; };
+		AAF3A1E31D1E5B3400E35890 /* HealthKnowledgeListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthKnowledgeListModel.m; sourceTree = "<group>"; };
+		AAF62B8A1D2605760078B16F /* PersonalCenterHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterHelper.h; sourceTree = "<group>"; };
+		AAF62B8B1D2605760078B16F /* PersonalCenterHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterHelper.m; sourceTree = "<group>"; };
+		AAF62B8D1D2605A40078B16F /* PersonalCenterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterModel.h; sourceTree = "<group>"; };
+		AAF62B8E1D2605A40078B16F /* PersonalCenterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterModel.m; sourceTree = "<group>"; };
+		CC63F48DBF321DDB955214C5 /* Pods-PalmHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PalmHealth.release.xcconfig"; path = "Pods/Target Support Files/Pods-PalmHealth/Pods-PalmHealth.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +465,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAEBFC3D1D1C38060031EA43 /* libsqlite3.0.tbd in Frameworks */,
+				A66ADEE93F7B0A9B83A20984 /* libPods-PalmHealth.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +487,335 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		271E0113E3BA6F7E8518AF6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61A3F1C3645C571B0E7A9B74 /* Pods-PalmHealth.debug.xcconfig */,
+				CC63F48DBF321DDB955214C5 /* Pods-PalmHealth.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA214AD51D1CE93100563503 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				AA214AD61D1CE93100563503 /* NSString+PinYin.h */,
+				AA214AD71D1CE93100563503 /* NSString+PinYin.m */,
+				AA214AD81D1CE93100563503 /* NSString+UrlEncode.h */,
+				AA214AD91D1CE93100563503 /* NSString+UrlEncode.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		AA214AF41D1D4AD300563503 /* HealthAnswer */ = {
+			isa = PBXGroup;
+			children = (
+				AA214AF71D1D4B0B00563503 /* HealthAnswerViewController.h */,
+				AA214AF81D1D4B0B00563503 /* HealthAnswerViewController.m */,
+				AAF3897E1D25191B00077CDD /* HealthAnswerListViewController.h */,
+				AAF3897F1D25191B00077CDD /* HealthAnswerListViewController.m */,
+				AAF389841D25193F00077CDD /* HealthAnswerDetailsViewController.h */,
+				AAF389851D25193F00077CDD /* HealthAnswerDetailsViewController.m */,
+			);
+			path = HealthAnswer;
+			sourceTree = "<group>";
+		};
+		AA214AF51D1D4AD300563503 /* HealthBooks */ = {
+			isa = PBXGroup;
+			children = (
+				AA4637CD1D24BBB700B4F686 /* Views */,
+				AA214AFD1D1D4B2800563503 /* HealthBooksViewController.h */,
+				AA214AFE1D1D4B2800563503 /* HealthBooksViewController.m */,
+				AAEB97EB1D23CBFA00ACB6B5 /* HealthBooksListViewController.h */,
+				AAEB97EC1D23CBFA00ACB6B5 /* HealthBooksListViewController.m */,
+				AAEB97EE1D23CC3200ACB6B5 /* HealthBooksDetailsViewController.h */,
+				AAEB97EF1D23CC3200ACB6B5 /* HealthBooksDetailsViewController.m */,
+			);
+			path = HealthBooks;
+			sourceTree = "<group>";
+		};
+		AA214AF61D1D4AD300563503 /* HealthKnowledge */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB60511D1DAFE300B8374D /* Views */,
+				AA214B001D1D4B3600563503 /* HealthKnowledgeViewController.h */,
+				AA214B011D1D4B3600563503 /* HealthKnowledgeViewController.m */,
+				AAF3A1CA1D1E5A0D00E35890 /* HealthKnowledgeListViewController.h */,
+				AAF3A1CB1D1E5A0D00E35890 /* HealthKnowledgeListViewController.m */,
+				AAF3A1CD1D1E5A2A00E35890 /* HealthKnowledgeDetailsViewController.h */,
+				AAF3A1CE1D1E5A2A00E35890 /* HealthKnowledgeDetailsViewController.m */,
+			);
+			path = HealthKnowledge;
+			sourceTree = "<group>";
+		};
+		AA2370F61D1638870098C138 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AAF0E8351D16F53B002D6600 /* pic0.jpg */,
+				AAF0E8371D16F540002D6600 /* pic1.jpg */,
+				AAF0E83B1D16F547002D6600 /* pic2.jpg */,
+				AAF0E8391D16F543002D6600 /* pic3.jpg */,
+				AAF0E83D1D16F5A1002D6600 /* pic5.jpg */,
+				AAF0E83E1D16F5A1002D6600 /* pic4.jpg */,
+				AAF0E83F1D16F5A1002D6600 /* pic7.jpg */,
+				AAF0E8401D16F5A1002D6600 /* pic6.jpg */,
+				AAF0E8411D16F5A1002D6600 /* pic8.jpeg */,
+				AA23719C1D16BD870098C138 /* TypeSelectorBtnHL_Black@2x.png */,
+				AA23719D1D16BD870098C138 /* 1000.jpg */,
+				AA23719E1D16BD870098C138 /* 1001.jpg */,
+				AA23719F1D16BD870098C138 /* 0.jpg */,
+				AA2371A01D16BD870098C138 /* 1.jpg */,
+				AA2371A11D16BD870098C138 /* 10.jpeg */,
+				AA2371A21D16BD870098C138 /* 11.jpg */,
+				AA2371A31D16BD870098C138 /* 12.jpg */,
+				AA2371A41D16BD870098C138 /* 2.jpg */,
+				AA2371A51D16BD870098C138 /* 4.jpg */,
+				AA2371A61D16BD870098C138 /* 7.jpg */,
+				AA2371A71D16BD870098C138 /* 8.jpg */,
+				AA2371021D1639170098C138 /* Common.xcassets */,
+				AA2370F71D1638A80098C138 /* Welfare.xcassets */,
+				AA2370FB1D1638D50098C138 /* MyDoctor.xcassets */,
+				AA2371001D1639080098C138 /* PersonalCenter.xcassets */,
+				AA2371341D16A7E20098C138 /* HealthService.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AA2371041D16587B0098C138 /* HealthService */ = {
+			isa = PBXGroup;
+			children = (
+				AA23712A1D169DBA0098C138 /* Views */,
+				AA23710D1D1658BD0098C138 /* HealthServiceViewController.h */,
+				AA23710E1D1658BD0098C138 /* HealthServiceViewController.m */,
+				AA214AF41D1D4AD300563503 /* HealthAnswer */,
+				AA214AF51D1D4AD300563503 /* HealthBooks */,
+				AA214AF61D1D4AD300563503 /* HealthKnowledge */,
+				AA2371051D16587B0098C138 /* HealthCircle */,
+				AA54F09A1D184DFE001856EB /* HealthInformation */,
+				AA23714C1D16AC420098C138 /* BuyMedicine */,
+			);
+			path = HealthService;
+			sourceTree = "<group>";
+		};
+		AA2371051D16587B0098C138 /* HealthCircle */ = {
+			isa = PBXGroup;
+			children = (
+				AA2371601D16B5F70098C138 /* HealthCircleVC.h */,
+				AA2371611D16B5F70098C138 /* HealthCircleVC.m */,
+				AA2371621D16B5F70098C138 /* Views */,
+			);
+			path = HealthCircle;
+			sourceTree = "<group>";
+		};
+		AA2371101D1698A60098C138 /* HealthService */ = {
+			isa = PBXGroup;
+			children = (
+				AA2371271D1699700098C138 /* HealthServiceModel.h */,
+				AA2371281D1699700098C138 /* HealthServiceModel.m */,
+				AAEB603F1D1DA8C100B8374D /* HealthAnswer */,
+				AAEB60401D1DA8C100B8374D /* HealthBooks */,
+				AAEB60411D1DA8C100B8374D /* HealthKnowledge */,
+				AA2371111D1698A60098C138 /* HealthCircle */,
+				AA2371121D1698A60098C138 /* HealthInformation */,
+			);
+			path = HealthService;
+			sourceTree = "<group>";
+		};
+		AA2371111D1698A60098C138 /* HealthCircle */ = {
+			isa = PBXGroup;
+			children = (
+				AA23716D1D16B6DE0098C138 /* AnswerModel.h */,
+				AA23716E1D16B6DE0098C138 /* AnswerModel.m */,
+				AA23716F1D16B6DE0098C138 /* FriendsModel.h */,
+				AA2371701D16B6DE0098C138 /* FriendsModel.m */,
+			);
+			path = HealthCircle;
+			sourceTree = "<group>";
+		};
+		AA2371121D1698A60098C138 /* HealthInformation */ = {
+			isa = PBXGroup;
+			children = (
+				AA54F0911D18443D001856EB /* HealthInformationModel.h */,
+				AA54F0921D18443D001856EB /* HealthInformationModel.m */,
+			);
+			path = HealthInformation;
+			sourceTree = "<group>";
+		};
+		AA2371131D1698BE0098C138 /* HealthService */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB60261D1D8E2C00B8374D /* HealthAnswer */,
+				AAEB60271D1D8E2C00B8374D /* HealthBooks */,
+				AAEB60281D1D8E2C00B8374D /* HealthKnowledge */,
+				AA2371141D1698BE0098C138 /* HealthCircle */,
+				AA2371151D1698BE0098C138 /* HealthInformation */,
+			);
+			path = HealthService;
+			sourceTree = "<group>";
+		};
+		AA2371141D1698BE0098C138 /* HealthCircle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HealthCircle;
+			sourceTree = "<group>";
+		};
+		AA2371151D1698BE0098C138 /* HealthInformation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HealthInformation;
+			sourceTree = "<group>";
+		};
+		AA23711D1D1698F70098C138 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AA23711E1D1698F70098C138 /* HealthService */,
+				AA2371211D1698F70098C138 /* MyDoctor */,
+				AA2371221D1698F70098C138 /* PersonalCenter */,
+				AA2371231D1698F70098C138 /* Welfare */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AA23711E1D1698F70098C138 /* HealthService */ = {
+			isa = PBXGroup;
+			children = (
+				AA2371241D16994F0098C138 /* HealthServiceHelper.h */,
+				AA2371251D16994F0098C138 /* HealthServiceHelper.m */,
+				AA23711F1D1698F70098C138 /* HealthCircle */,
+				AA2371201D1698F70098C138 /* HealthInformation */,
+				AA2371361D16AA4D0098C138 /* BuyMedicine */,
+			);
+			path = HealthService;
+			sourceTree = "<group>";
+		};
+		AA23711F1D1698F70098C138 /* HealthCircle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HealthCircle;
+			sourceTree = "<group>";
+		};
+		AA2371201D1698F70098C138 /* HealthInformation */ = {
+			isa = PBXGroup;
+			children = (
+				AA54F08B1D1843E6001856EB /* HealthInformationHelper.h */,
+				AA54F08C1D1843E6001856EB /* HealthInformationHelper.m */,
+			);
+			path = HealthInformation;
+			sourceTree = "<group>";
+		};
+		AA2371211D1698F70098C138 /* MyDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB832D1D198E870097D233 /* MyDoctorHelper.h */,
+				AAEB832E1D198E870097D233 /* MyDoctorHelper.m */,
+				AA214ACB1D1CE7EC00563503 /* FormattingMyDoctorDataHelper.h */,
+				AA214ACC1D1CE7EC00563503 /* FormattingMyDoctorDataHelper.m */,
+				AAEB83431D19A3980097D233 /* DepartmentListHelper.h */,
+				AAEB83441D19A3980097D233 /* DepartmentListHelper.m */,
+				AA26CC331D1AA20F00EBD73C /* DepartmentMembersHelper.h */,
+				AA26CC341D1AA20F00EBD73C /* DepartmentMembersHelper.m */,
+			);
+			path = MyDoctor;
+			sourceTree = "<group>";
+		};
+		AA2371221D1698F70098C138 /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				AAE4CE4F1D2F8F7800EFE3E9 /* PersonalInfomation */,
+				AAF62B8A1D2605760078B16F /* PersonalCenterHelper.h */,
+				AAF62B8B1D2605760078B16F /* PersonalCenterHelper.m */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		AA2371231D1698F70098C138 /* Welfare */ = {
+			isa = PBXGroup;
+			children = (
+				AA2412CA1D21273000C6D458 /* WelfareHelper.h */,
+				AA2412CB1D21273000C6D458 /* WelfareHelper.m */,
+			);
+			path = Welfare;
+			sourceTree = "<group>";
+		};
+		AA23712A1D169DBA0098C138 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA2371311D169EC40098C138 /* HealthServiceCell.h */,
+				AA2371321D169EC40098C138 /* HealthServiceCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA2371361D16AA4D0098C138 /* BuyMedicine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BuyMedicine;
+			sourceTree = "<group>";
+		};
+		AA23714C1D16AC420098C138 /* BuyMedicine */ = {
+			isa = PBXGroup;
+			children = (
+				AA23714D1D16AC420098C138 /* BuyMedicineViewController.h */,
+				AA23714E1D16AC420098C138 /* BuyMedicineViewController.m */,
+			);
+			path = BuyMedicine;
+			sourceTree = "<group>";
+		};
+		AA2371621D16B5F70098C138 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA2371631D16B5F70098C138 /* HealthCircleCell.h */,
+				AA2371641D16B5F70098C138 /* HealthCircleCell.m */,
+				AA2371651D16B5F70098C138 /* HealthCircleFooterView.h */,
+				AA2371661D16B5F70098C138 /* HealthCircleFooterView.m */,
+				AA2371671D16B5F70098C138 /* HealthCircleHeaderView.h */,
+				AA2371681D16B5F70098C138 /* HealthCircleHeaderView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA23717B1D16B7F00098C138 /* Encapsulationlibrary */ = {
+			isa = PBXGroup;
+			children = (
+				AAEBFC381D1C37DC0031EA43 /* WHC_ModelSqliteKit */,
+				AA23718F1D16BB460098C138 /* KeyboradHeaderView */,
+				AA23718C1D16BAB60098C138 /* ImageDisplayView */,
+			);
+			path = Encapsulationlibrary;
+			sourceTree = "<group>";
+		};
+		AA23718C1D16BAB60098C138 /* ImageDisplayView */ = {
+			isa = PBXGroup;
+			children = (
+				AA23718D1D16BAB60098C138 /* ImageDisplayView.swift */,
+			);
+			path = ImageDisplayView;
+			sourceTree = "<group>";
+		};
+		AA23718F1D16BB460098C138 /* KeyboradHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				AA2371901D16BB460098C138 /* KeyboradHeaderView.h */,
+				AA2371911D16BB460098C138 /* KeyboradHeaderView.m */,
+			);
+			path = KeyboradHeaderView;
+			sourceTree = "<group>";
+		};
+		AA2412B71D20CB7600C6D458 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA2412C41D2125DD00C6D458 /* WelfareHeaderCell.h */,
+				AA2412C51D2125DD00C6D458 /* WelfareHeaderCell.m */,
+				AA2412C11D21259E00C6D458 /* WelfareItemCell.h */,
+				AA2412C21D21259E00C6D458 /* WelfareItemCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		AA24E5241D15A62B007E2A0D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +823,8 @@
 				AA24E5491D15A62C007E2A0D /* PalmHealthTests */,
 				AA24E5541D15A62C007E2A0D /* PalmHealthUITests */,
 				AA24E52E1D15A62B007E2A0D /* Products */,
+				271E0113E3BA6F7E8518AF6D /* Pods */,
+				ABC469FE6818AC0B692E9697 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +841,14 @@
 		AA24E52F1D15A62B007E2A0D /* PalmHealth */ = {
 			isa = PBXGroup;
 			children = (
+				AA24E5641D15AB83007E2A0D /* Common */,
+				AA24E5651D15AB83007E2A0D /* Model */,
+				AA24E5671D15AB83007E2A0D /* ViewController */,
+				AA24E5681D15AB83007E2A0D /* ViewModel */,
+				AA24E5631D15AB83007E2A0D /* Business */,
+				AA24E5921D15AE1D007E2A0D /* Extensions */,
+				AA23717B1D16B7F00098C138 /* Encapsulationlibrary */,
+				AA24E5661D15AB83007E2A0D /* Resources */,
 				AA24E5331D15A62B007E2A0D /* AppDelegate.h */,
 				AA24E5341D15A62B007E2A0D /* AppDelegate.m */,
 				AA24E5361D15A62B007E2A0D /* ViewController.h */,
@@ -117,7 +865,9 @@
 		AA24E5301D15A62B007E2A0D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA23718B1D16BA940098C138 /* PalmHealth-Bridging-Header.h */,
 				AA24E5311D15A62B007E2A0D /* main.m */,
+				AA24E5911D15ACA9007E2A0D /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +890,696 @@
 			path = PalmHealthUITests;
 			sourceTree = "<group>";
 		};
+		AA24E5631D15AB83007E2A0D /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				AA23711D1D1698F70098C138 /* Main */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		AA24E5641D15AB83007E2A0D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB60321D1D996B00B8374D /* DataToDictionary */,
+				AA24E5721D15AC0C007E2A0D /* Networking */,
+				AA24E5831D15AC17007E2A0D /* ViewController */,
+				AA24E5801D15AC17007E2A0D /* TableViewController */,
+				AA24E57D1D15AC17007E2A0D /* TableViewCell */,
+				AA24E5891D15AC17007E2A0D /* WebViewController */,
+				AA24E56C1D15AC0C007E2A0D /* NavigationBar */,
+				AA24E56F1D15AC0C007E2A0D /* NavigationController */,
+				AA24E5751D15AC0C007E2A0D /* SearchController */,
+				AA24E5691D15AC0C007E2A0D /* Model */,
+				AA24E5861D15AC17007E2A0D /* ViewModel */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AA24E5651D15AB83007E2A0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E5C01D15B4BC007E2A0D /* Main */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA24E5661D15AB83007E2A0D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA2370F61D1638870098C138 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA24E5671D15AB83007E2A0D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E5BF1D15B4B0007E2A0D /* Root */,
+				AA24E5BA1D15B4B0007E2A0D /* Main */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AA24E5681D15AB83007E2A0D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E5B51D15B4A7007E2A0D /* Main */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AA24E5691D15AC0C007E2A0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E56A1D15AC0C007E2A0D /* BaseDataModel.h */,
+				AA24E56B1D15AC0C007E2A0D /* BaseDataModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA24E56C1D15AC0C007E2A0D /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E56D1D15AC0C007E2A0D /* NavigationBar.h */,
+				AA24E56E1D15AC0C007E2A0D /* NavigationBar.m */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		AA24E56F1D15AC0C007E2A0D /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E5701D15AC0C007E2A0D /* NavigationViewController.h */,
+				AA24E5711D15AC0C007E2A0D /* NavigationViewController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		AA24E5721D15AC0C007E2A0D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E5731D15AC0C007E2A0D /* Networking.h */,
+				AA24E5741D15AC0C007E2A0D /* Networking.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		AA24E5751D15AC0C007E2A0D /* SearchController */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E5761D15AC0C007E2A0D /* SearchController.h */,
+				AA24E5771D15AC0C007E2A0D /* SearchController.m */,
+			);
+			path = SearchController;
+			sourceTree = "<group>";
+		};
+		AA24E57D1D15AC17007E2A0D /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E57E1D15AC17007E2A0D /* CommonTableViewCell.h */,
+				AA24E57F1D15AC17007E2A0D /* CommonTableViewCell.m */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		AA24E5801D15AC17007E2A0D /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E5811D15AC17007E2A0D /* CommonTableViewController.h */,
+				AA24E5821D15AC17007E2A0D /* CommonTableViewController.m */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
+		AA24E5831D15AC17007E2A0D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E5841D15AC17007E2A0D /* CommonViewController.h */,
+				AA24E5851D15AC17007E2A0D /* CommonViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AA24E5861D15AC17007E2A0D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E5871D15AC17007E2A0D /* BaseDataViewModel.h */,
+				AA24E5881D15AC17007E2A0D /* BaseDataViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AA24E5891D15AC17007E2A0D /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E58A1D15AC17007E2A0D /* CommonWebViewController.h */,
+				AA24E58B1D15AC17007E2A0D /* CommonWebViewController.m */,
+			);
+			path = WebViewController;
+			sourceTree = "<group>";
+		};
+		AA24E5921D15AE1D007E2A0D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E5931D15AE1D007E2A0D /* Category */,
+				AA24E59C1D15AE1D007E2A0D /* Vendors */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AA24E5931D15AE1D007E2A0D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AA214AD51D1CE93100563503 /* NSString */,
+				AA24E5AE1D15AECB007E2A0D /* UIImage */,
+				AA24E5A41D15AE96007E2A0D /* UIView */,
+				AA24E5A01D15AE57007E2A0D /* UIColor */,
+				AA24E5941D15AE1D007E2A0D /* UIBarButtonItem */,
+				AA24E5971D15AE1D007E2A0D /* UINavigationController */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		AA24E5941D15AE1D007E2A0D /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E5951D15AE1D007E2A0D /* UIBarButtonItem+Action.h */,
+				AA24E5961D15AE1D007E2A0D /* UIBarButtonItem+Action.m */,
+			);
+			path = UIBarButtonItem;
+			sourceTree = "<group>";
+		};
+		AA24E5971D15AE1D007E2A0D /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E5981D15AE1D007E2A0D /* UINavigationController+JZExtension.h */,
+				AA24E5991D15AE1D007E2A0D /* UINavigationController+JZExtension.m */,
+				AA24E59A1D15AE1D007E2A0D /* UINavigationController+StackManager.h */,
+				AA24E59B1D15AE1D007E2A0D /* UINavigationController+StackManager.m */,
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		AA24E59C1D15AE1D007E2A0D /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		AA24E5A01D15AE57007E2A0D /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E5A11D15AE57007E2A0D /* UIColor+Chat.h */,
+				AA24E5A21D15AE57007E2A0D /* UIColor+Chat.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		AA24E5A41D15AE96007E2A0D /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E5A51D15AE96007E2A0D /* UIView+Extensions.h */,
+				AA24E5A61D15AE96007E2A0D /* UIView+Extensions.m */,
+				AA24E5A71D15AE96007E2A0D /* UIView+Frame.h */,
+				AA24E5A81D15AE96007E2A0D /* UIView+Frame.m */,
+				AA24E5A91D15AE96007E2A0D /* UIView+Property.h */,
+				AA24E5AA1D15AE96007E2A0D /* UIView+Property.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		AA24E5AE1D15AECB007E2A0D /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E5AF1D15AECB007E2A0D /* UIImage+Color.h */,
+				AA24E5B01D15AECB007E2A0D /* UIImage+Color.m */,
+				AA24E5B11D15AECB007E2A0D /* UIImage+Draw.h */,
+				AA24E5B21D15AECB007E2A0D /* UIImage+Draw.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		AA24E5B51D15B4A7007E2A0D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AA2371131D1698BE0098C138 /* HealthService */,
+				AA24E5B91D15B4A7007E2A0D /* Welfare */,
+				AA24E5B71D15B4A7007E2A0D /* MyDoctor */,
+				AA24E5B81D15B4A7007E2A0D /* PersonalCenter */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AA24E5B71D15B4A7007E2A0D /* MyDoctor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyDoctor;
+			sourceTree = "<group>";
+		};
+		AA24E5B81D15B4A7007E2A0D /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		AA24E5B91D15B4A7007E2A0D /* Welfare */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Welfare;
+			sourceTree = "<group>";
+		};
+		AA24E5BA1D15B4B0007E2A0D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AA24E5BE1D15B4B0007E2A0D /* Welfare */,
+				AA24E5BC1D15B4B0007E2A0D /* MyDoctor */,
+				AA2371041D16587B0098C138 /* HealthService */,
+				AA24E5BD1D15B4B0007E2A0D /* PersonalCenter */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AA24E5BC1D15B4B0007E2A0D /* MyDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB83331D1991620097D233 /* Views */,
+				AA2370E71D1634390098C138 /* MyDoctorViewController.h */,
+				AA2370E81D1634390098C138 /* MyDoctorViewController.m */,
+				AAEB833D1D199EC20097D233 /* MyDoctorSearchViewController.h */,
+				AAEB833E1D199EC20097D233 /* MyDoctorSearchViewController.m */,
+				AAEB83401D19A0B00097D233 /* DepartmentListViewController.h */,
+				AAEB83411D19A0B00097D233 /* DepartmentListViewController.m */,
+				AA26CC2D1D1AA10C00EBD73C /* DepartmentMembersViewController.h */,
+				AA26CC2E1D1AA10C00EBD73C /* DepartmentMembersViewController.m */,
+				AAEBF1121D1BE791007C0DAD /* DoctorDetailsViewController.h */,
+				AAEBF1131D1BE791007C0DAD /* DoctorDetailsViewController.m */,
+				AAEBF1181D1C0654007C0DAD /* DoctorDetailsWebViewController.h */,
+				AAEBF1191D1C0654007C0DAD /* DoctorDetailsWebViewController.m */,
+			);
+			path = MyDoctor;
+			sourceTree = "<group>";
+		};
+		AA24E5BD1D15B4B0007E2A0D /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				AACA7C711D2D0DDF000B3A0D /* Views */,
+				AA2370F31D1635560098C138 /* PersonalCenterViewController.h */,
+				AA2370F41D1635560098C138 /* PersonalCenterViewController.m */,
+				AAE4CE471D2F85A000EFE3E9 /* PersonalInformation */,
+				AAE4CE311D2F83FF00EFE3E9 /* HealthRecords */,
+				AAE4CE321D2F83FF00EFE3E9 /* MyCoupons */,
+				AAE4CE331D2F83FF00EFE3E9 /* MyOrder */,
+				AAE4CE301D2F83FF00EFE3E9 /* Collection */,
+				AAE4CE341D2F83FF00EFE3E9 /* Setting */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		AA24E5BE1D15B4B0007E2A0D /* Welfare */ = {
+			isa = PBXGroup;
+			children = (
+				AA2412B71D20CB7600C6D458 /* Views */,
+				AA2370E41D16341E0098C138 /* WelfareViewController.h */,
+				AA2370E51D16341E0098C138 /* WelfareViewController.m */,
+				AA2412BE1D21243200C6D458 /* WelfareViewController+CollectionView.h */,
+				AA2412BF1D21243200C6D458 /* WelfareViewController+CollectionView.m */,
+			);
+			path = Welfare;
+			sourceTree = "<group>";
+		};
+		AA24E5BF1D15B4B0007E2A0D /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				AA2370E11D1633F40098C138 /* RootViewController.h */,
+				AA2370E21D1633F40098C138 /* RootViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		AA24E5C01D15B4BC007E2A0D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AA2371101D1698A60098C138 /* HealthService */,
+				AA24E5C21D15B4BC007E2A0D /* MyDoctor */,
+				AA24E5C31D15B4BC007E2A0D /* PersonalCenter */,
+				AA24E5C41D15B4BC007E2A0D /* Welfare */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AA24E5C21D15B4BC007E2A0D /* MyDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				AA548CB01D19483A0048D707 /* MyDoctorModel.h */,
+				AA548CB11D19483A0048D707 /* MyDoctorModel.m */,
+				AA548CB31D1953840048D707 /* DepartmentModel.h */,
+				AA548CB41D1953840048D707 /* DepartmentModel.m */,
+			);
+			path = MyDoctor;
+			sourceTree = "<group>";
+		};
+		AA24E5C31D15B4BC007E2A0D /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				AAE4CE4B1D2F8B2E00EFE3E9 /* PersonalInfomation */,
+				AAF62B8D1D2605A40078B16F /* PersonalCenterModel.h */,
+				AAF62B8E1D2605A40078B16F /* PersonalCenterModel.m */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		AA24E5C41D15B4BC007E2A0D /* Welfare */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB97BE1D237C7400ACB6B5 /* DiseaseConsulting */,
+				AAEB97BF1D237C7400ACB6B5 /* HospitalRank */,
+				AAEB97C01D237C7400ACB6B5 /* MakeAppointmentDoctor */,
+				AAEB97C11D237C7400ACB6B5 /* PutianHospital */,
+				AAEB97C21D237C7400ACB6B5 /* SpringInternational */,
+				AAEB97C31D237C7400ACB6B5 /* VaccinationPoint */,
+				AA2412C71D21264A00C6D458 /* WelfareModel.h */,
+				AA2412C81D21264A00C6D458 /* WelfareModel.m */,
+			);
+			path = Welfare;
+			sourceTree = "<group>";
+		};
+		AA4637CD1D24BBB700B4F686 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA4637D41D24BC0B00B4F686 /* HealthBooksListCell.h */,
+				AA4637D51D24BC0B00B4F686 /* HealthBooksListCell.m */,
+				AA4637DA1D24BC4500B4F686 /* HealthBooksDetailsCell.h */,
+				AA4637DB1D24BC4500B4F686 /* HealthBooksDetailsCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA54F09A1D184DFE001856EB /* HealthInformation */ = {
+			isa = PBXGroup;
+			children = (
+				AA54F09F1D184EBE001856EB /* Views */,
+				AA54F09B1D184E16001856EB /* HealthInformationViewController.h */,
+				AA54F09C1D184E16001856EB /* HealthInformationViewController.m */,
+				AA54F0A91D185648001856EB /* HealthInformationDetailsViewController.h */,
+				AA54F0AA1D185648001856EB /* HealthInformationDetailsViewController.m */,
+			);
+			path = HealthInformation;
+			sourceTree = "<group>";
+		};
+		AA54F09F1D184EBE001856EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA54F0A31D184EF0001856EB /* HealthInformationCell.h */,
+				AA54F0A41D184EF0001856EB /* HealthInformationCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AACA7C711D2D0DDF000B3A0D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AACA7C721D2D0DDF000B3A0D /* PersonalCenterCell.h */,
+				AACA7C731D2D0DDF000B3A0D /* PersonalCenterCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AAE4CE301D2F83FF00EFE3E9 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				AAE4CE411D2F847000EFE3E9 /* CollectionViewController.h */,
+				AAE4CE421D2F847000EFE3E9 /* CollectionViewController.m */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		AAE4CE311D2F83FF00EFE3E9 /* HealthRecords */ = {
+			isa = PBXGroup;
+			children = (
+				AAE4CE351D2F843800EFE3E9 /* HealthRecordsViewController.h */,
+				AAE4CE361D2F843800EFE3E9 /* HealthRecordsViewController.m */,
+			);
+			path = HealthRecords;
+			sourceTree = "<group>";
+		};
+		AAE4CE321D2F83FF00EFE3E9 /* MyCoupons */ = {
+			isa = PBXGroup;
+			children = (
+				AAE4CE3B1D2F844F00EFE3E9 /* MyCouponsViewController.h */,
+				AAE4CE3C1D2F844F00EFE3E9 /* MyCouponsViewController.m */,
+			);
+			path = MyCoupons;
+			sourceTree = "<group>";
+		};
+		AAE4CE331D2F83FF00EFE3E9 /* MyOrder */ = {
+			isa = PBXGroup;
+			children = (
+				AAE4CE3E1D2F846600EFE3E9 /* MyOrderViewController.h */,
+				AAE4CE3F1D2F846600EFE3E9 /* MyOrderViewController.m */,
+			);
+			path = MyOrder;
+			sourceTree = "<group>";
+		};
+		AAE4CE341D2F83FF00EFE3E9 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				AAE4CE441D2F848000EFE3E9 /* SettingViewController.h */,
+				AAE4CE451D2F848000EFE3E9 /* SettingViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		AAE4CE471D2F85A000EFE3E9 /* PersonalInformation */ = {
+			isa = PBXGroup;
+			children = (
+				AAE4CE5A1D2F92FC00EFE3E9 /* Views */,
+				AAE4CE481D2F85D100EFE3E9 /* PersonalInformationViewController.h */,
+				AAE4CE491D2F85D100EFE3E9 /* PersonalInformationViewController.m */,
+			);
+			path = PersonalInformation;
+			sourceTree = "<group>";
+		};
+		AAE4CE4B1D2F8B2E00EFE3E9 /* PersonalInfomation */ = {
+			isa = PBXGroup;
+			children = (
+				AAE4CE4C1D2F8B4F00EFE3E9 /* PersonalInfomationModel.h */,
+				AAE4CE4D1D2F8B4F00EFE3E9 /* PersonalInfomationModel.m */,
+			);
+			path = PersonalInfomation;
+			sourceTree = "<group>";
+		};
+		AAE4CE4F1D2F8F7800EFE3E9 /* PersonalInfomation */ = {
+			isa = PBXGroup;
+			children = (
+				AAE4CE501D2F8F8600EFE3E9 /* PersonalInfomationHelper.h */,
+				AAE4CE511D2F8F8600EFE3E9 /* PersonalInfomationHelper.m */,
+			);
+			path = PersonalInfomation;
+			sourceTree = "<group>";
+		};
+		AAE4CE5A1D2F92FC00EFE3E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAE4CE5B1D2F92FC00EFE3E9 /* PersonalInfomationCell.h */,
+				AAE4CE5C1D2F92FC00EFE3E9 /* PersonalInfomationCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AAEB60261D1D8E2C00B8374D /* HealthAnswer */ = {
+			isa = PBXGroup;
+			children = (
+				AAF389931D251BE400077CDD /* HealthAnswerDataViewModel.h */,
+				AAF389941D251BE400077CDD /* HealthAnswerDataViewModel.m */,
+				AAF389A21D251FDA00077CDD /* HealthAnswerViewController+Data.h */,
+				AAF389A31D251FDA00077CDD /* HealthAnswerViewController+Data.m */,
+				AAF3899F1D251C6D00077CDD /* HealthAnswerListViewController+Data.h */,
+				AAF389A01D251C6D00077CDD /* HealthAnswerListViewController+Data.m */,
+				AAF3899C1D251C4800077CDD /* HealthAnswerDetailsViewController+Data.h */,
+				AAF3899D1D251C4800077CDD /* HealthAnswerDetailsViewController+Data.m */,
+			);
+			path = HealthAnswer;
+			sourceTree = "<group>";
+		};
+		AAEB60271D1D8E2C00B8374D /* HealthBooks */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB97E81D23CBB700ACB6B5 /* HealthBooksDataViewModel.h */,
+				AAEB97E91D23CBB700ACB6B5 /* HealthBooksDataViewModel.m */,
+				AAEB97F11D23CC6C00ACB6B5 /* HealthBooksViewController+Data.h */,
+				AAEB97F21D23CC6C00ACB6B5 /* HealthBooksViewController+Data.m */,
+				AAEB97F41D23CC9E00ACB6B5 /* HealthBooksListViewController+Data.h */,
+				AAEB97F51D23CC9E00ACB6B5 /* HealthBooksListViewController+Data.m */,
+				AAEB97FA1D23CCBF00ACB6B5 /* HealthBooksDetailsViewController+Data.h */,
+				AAEB97FB1D23CCBF00ACB6B5 /* HealthBooksDetailsViewController+Data.m */,
+			);
+			path = HealthBooks;
+			sourceTree = "<group>";
+		};
+		AAEB60281D1D8E2C00B8374D /* HealthKnowledge */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB602F1D1D912000B8374D /* HealthKnowledgeDataViewModel.h */,
+				AAEB60301D1D912000B8374D /* HealthKnowledgeDataViewModel.m */,
+				AAEB60391D1D9E0400B8374D /* HealthKnowledgeViewController+Data.h */,
+				AAEB603A1D1D9E0400B8374D /* HealthKnowledgeViewController+Data.m */,
+				AAF3A1D61D1E5AAD00E35890 /* HealthKnowledgeListViewController+Data.h */,
+				AAF3A1D71D1E5AAD00E35890 /* HealthKnowledgeListViewController+Data.m */,
+				AAF3A1DC1D1E5AEA00E35890 /* HealthKnowledgeDetailsViewController+Data.h */,
+				AAF3A1DD1D1E5AEA00E35890 /* HealthKnowledgeDetailsViewController+Data.m */,
+			);
+			path = HealthKnowledge;
+			sourceTree = "<group>";
+		};
+		AAEB60321D1D996B00B8374D /* DataToDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB60331D1D996B00B8374D /* DataToDictionary.h */,
+				AAEB60341D1D996B00B8374D /* DataToDictionary.m */,
+			);
+			path = DataToDictionary;
+			sourceTree = "<group>";
+		};
+		AAEB603F1D1DA8C100B8374D /* HealthAnswer */ = {
+			isa = PBXGroup;
+			children = (
+				AAF389901D2519A200077CDD /* HealthAnswerListModel.h */,
+				AAF389911D2519A200077CDD /* HealthAnswerListModel.m */,
+			);
+			path = HealthAnswer;
+			sourceTree = "<group>";
+		};
+		AAEB60401D1DA8C100B8374D /* HealthBooks */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB97FD1D23CE6000ACB6B5 /* HealthBooksModel.h */,
+				AAEB97FE1D23CE6000ACB6B5 /* HealthBooksModel.m */,
+				AAEB98001D23CE8600ACB6B5 /* HealthBooksListModel.h */,
+				AAEB98011D23CE8600ACB6B5 /* HealthBooksListModel.m */,
+				AAEB98031D23CEAE00ACB6B5 /* HealthBooksDetailsModel.h */,
+				AAEB98041D23CEAE00ACB6B5 /* HealthBooksDetailsModel.m */,
+			);
+			path = HealthBooks;
+			sourceTree = "<group>";
+		};
+		AAEB60411D1DA8C100B8374D /* HealthKnowledge */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB604E1D1DA93300B8374D /* HealthKnowledgeModel.h */,
+				AAEB604F1D1DA93300B8374D /* HealthKnowledgeModel.m */,
+				AAF3A1E21D1E5B3400E35890 /* HealthKnowledgeListModel.h */,
+				AAF3A1E31D1E5B3400E35890 /* HealthKnowledgeListModel.m */,
+				AAF3A1DF1D1E5B1F00E35890 /* HealthKnowledgeDetailsModel.h */,
+				AAF3A1E01D1E5B1F00E35890 /* HealthKnowledgeDetailsModel.m */,
+			);
+			path = HealthKnowledge;
+			sourceTree = "<group>";
+		};
+		AAEB60511D1DAFE300B8374D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB60551D1DB01900B8374D /* HealthKnowledgeCell.h */,
+				AAEB60561D1DB01900B8374D /* HealthKnowledgeCell.m */,
+				AAF3A1D01D1E5A5400E35890 /* HealthKnowledgeListCell.h */,
+				AAF3A1D11D1E5A5400E35890 /* HealthKnowledgeListCell.m */,
+				AAF3A1D31D1E5A6C00E35890 /* HealthKnowledgeDetailsCell.h */,
+				AAF3A1D41D1E5A6C00E35890 /* HealthKnowledgeDetailsCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AAEB83331D1991620097D233 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB83341D19918E0097D233 /* MyDoctorCell.h */,
+				AAEB83351D19918E0097D233 /* MyDoctorCell.m */,
+				AAEBF1151D1BE7DC007C0DAD /* DoctorDetailsCell.h */,
+				AAEBF1161D1BE7DC007C0DAD /* DoctorDetailsCell.m */,
+				AAEBFC311D1C24C90031EA43 /* DoctorDetailsFooterView.h */,
+				AAEBFC321D1C24C90031EA43 /* DoctorDetailsFooterView.m */,
+				AA214AC51D1CE4FD00563503 /* MyDoctorHeaderView.h */,
+				AA214AC61D1CE4FD00563503 /* MyDoctorHeaderView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AAEB97BE1D237C7400ACB6B5 /* DiseaseConsulting */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB97C41D237C9500ACB6B5 /* DiseaseConsultingViewController.h */,
+				AAEB97C51D237C9500ACB6B5 /* DiseaseConsultingViewController.m */,
+			);
+			path = DiseaseConsulting;
+			sourceTree = "<group>";
+		};
+		AAEB97BF1D237C7400ACB6B5 /* HospitalRank */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB97C71D237CB000ACB6B5 /* HospitalRankViewController.h */,
+				AAEB97C81D237CB000ACB6B5 /* HospitalRankViewController.m */,
+			);
+			path = HospitalRank;
+			sourceTree = "<group>";
+		};
+		AAEB97C01D237C7400ACB6B5 /* MakeAppointmentDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB97CA1D237CBD00ACB6B5 /* MakeAppointmentDoctorViewController.h */,
+				AAEB97CB1D237CBD00ACB6B5 /* MakeAppointmentDoctorViewController.m */,
+			);
+			path = MakeAppointmentDoctor;
+			sourceTree = "<group>";
+		};
+		AAEB97C11D237C7400ACB6B5 /* PutianHospital */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB97CD1D237CC900ACB6B5 /* PutianHospitalViewController.h */,
+				AAEB97CE1D237CC900ACB6B5 /* PutianHospitalViewController.m */,
+			);
+			path = PutianHospital;
+			sourceTree = "<group>";
+		};
+		AAEB97C21D237C7400ACB6B5 /* SpringInternational */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB97E51D237E9600ACB6B5 /* SpringInternationalViewController.h */,
+				AAEB97E61D237E9600ACB6B5 /* SpringInternationalViewController.m */,
+			);
+			path = SpringInternational;
+			sourceTree = "<group>";
+		};
+		AAEB97C31D237C7400ACB6B5 /* VaccinationPoint */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB97E21D237D1F00ACB6B5 /* VaccinationPointViewController.h */,
+				AAEB97E31D237D1F00ACB6B5 /* VaccinationPointViewController.m */,
+			);
+			path = VaccinationPoint;
+			sourceTree = "<group>";
+		};
+		AAEBFC381D1C37DC0031EA43 /* WHC_ModelSqliteKit */ = {
+			isa = PBXGroup;
+			children = (
+				AAEBFC391D1C37DC0031EA43 /* WHC_ModelSqlite.h */,
+				AAEBFC3A1D1C37DC0031EA43 /* WHC_ModelSqlite.m */,
+			);
+			path = WHC_ModelSqliteKit;
+			sourceTree = "<group>";
+		};
+		ABC469FE6818AC0B692E9697 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAEBFC3C1D1C38060031EA43 /* libsqlite3.0.tbd */,
+				283538E74BC93BC421E0B0C9 /* libPods-PalmHealth.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +1587,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA24E55A1D15A62C007E2A0D /* Build configuration list for PBXNativeTarget "PalmHealth" */;
 			buildPhases = (
+				09C17B666B5CC1F1B169ECED /* [CP] Check Pods Manifest.lock */,
 				AA24E5291D15A62B007E2A0D /* Sources */,
 				AA24E52A1D15A62B007E2A0D /* Frameworks */,
 				AA24E52B1D15A62B007E2A0D /* Resources */,
+				5BC4ABEABAC10294DAEDD18A /* [CP] Embed Pods Frameworks */,
+				C99E4D78EC4CA3D48405881F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +1686,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2371B11D16BD870098C138 /* TypeSelectorBtnHL_Black@2x.png in Resources */,
+				AAF0E8431D16F5A1002D6600 /* pic5.jpg in Resources */,
+				AA2371BB1D16BD870098C138 /* 7.jpg in Resources */,
+				AAF0E83A1D16F543002D6600 /* pic3.jpg in Resources */,
+				AA2371B41D16BD870098C138 /* 0.jpg in Resources */,
+				AA2371B81D16BD870098C138 /* 12.jpg in Resources */,
+				AA2371BA1D16BD870098C138 /* 4.jpg in Resources */,
+				AA2371011D1639080098C138 /* PersonalCenter.xcassets in Resources */,
+				AA2371B21D16BD870098C138 /* 1000.jpg in Resources */,
+				AA2371351D16A7E20098C138 /* HealthService.xcassets in Resources */,
 				AA24E5401D15A62C007E2A0D /* LaunchScreen.storyboard in Resources */,
+				AA2370FC1D1638D50098C138 /* MyDoctor.xcassets in Resources */,
+				AA2371B51D16BD870098C138 /* 1.jpg in Resources */,
+				AA2371031D1639170098C138 /* Common.xcassets in Resources */,
+				AA2371BC1D16BD870098C138 /* 8.jpg in Resources */,
+				AA2371B71D16BD870098C138 /* 11.jpg in Resources */,
 				AA24E53D1D15A62B007E2A0D /* Assets.xcassets in Resources */,
+				AA2370F81D1638A80098C138 /* Welfare.xcassets in Resources */,
+				AA2371B61D16BD870098C138 /* 10.jpeg in Resources */,
+				AAF0E8441D16F5A1002D6600 /* pic4.jpg in Resources */,
+				AA2371B91D16BD870098C138 /* 2.jpg in Resources */,
+				AAF0E8381D16F540002D6600 /* pic1.jpg in Resources */,
+				AAF0E8451D16F5A1002D6600 /* pic7.jpg in Resources */,
+				AA2371B31D16BD870098C138 /* 1001.jpg in Resources */,
+				AAF0E8471D16F5A1002D6600 /* pic8.jpeg in Resources */,
 				AA24E53B1D15A62B007E2A0D /* Main.storyboard in Resources */,
+				AAF0E8461D16F5A1002D6600 /* pic6.jpg in Resources */,
+				AAF0E8361D16F53B002D6600 /* pic0.jpg in Resources */,
+				AAF0E83C1D16F547002D6600 /* pic2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +1734,178 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09C17B666B5CC1F1B169ECED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5BC4ABEABAC10294DAEDD18A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PalmHealth/Pods-PalmHealth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C99E4D78EC4CA3D48405881F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PalmHealth/Pods-PalmHealth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA24E5291D15A62B007E2A0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF3A1D81D1E5AAD00E35890 /* HealthKnowledgeListViewController+Data.m in Sources */,
+				AA2412C31D21259E00C6D458 /* WelfareItemCell.m in Sources */,
+				AA24E5781D15AC0C007E2A0D /* BaseDataModel.m in Sources */,
+				AA54F08D1D1843E6001856EB /* HealthInformationHelper.m in Sources */,
+				AAEB97ED1D23CBFA00ACB6B5 /* HealthBooksListViewController.m in Sources */,
+				AAEB60571D1DB01900B8374D /* HealthKnowledgeCell.m in Sources */,
+				AAEB97EA1D23CBB700ACB6B5 /* HealthBooksDataViewModel.m in Sources */,
+				AA214ADA1D1CE93100563503 /* NSString+PinYin.m in Sources */,
+				AA214B021D1D4B3600563503 /* HealthKnowledgeViewController.m in Sources */,
 				AA24E5381D15A62B007E2A0D /* ViewController.m in Sources */,
+				AA2370E31D1633F40098C138 /* RootViewController.m in Sources */,
+				AAE4CE4A1D2F85D100EFE3E9 /* PersonalInformationViewController.m in Sources */,
+				AAEB98021D23CE8600ACB6B5 /* HealthBooksListModel.m in Sources */,
+				AA23716B1D16B5F70098C138 /* HealthCircleFooterView.m in Sources */,
+				AAEB97E71D237E9600ACB6B5 /* SpringInternationalViewController.m in Sources */,
+				AAEB97E41D237D1F00ACB6B5 /* VaccinationPointViewController.m in Sources */,
+				AA2412C01D21243200C6D458 /* WelfareViewController+CollectionView.m in Sources */,
+				AA23714F1D16AC420098C138 /* BuyMedicineViewController.m in Sources */,
+				AA26CC2F1D1AA10C00EBD73C /* DepartmentMembersViewController.m in Sources */,
+				AA24E58D1D15AC17007E2A0D /* CommonTableViewController.m in Sources */,
+				AAEB97FF1D23CE6000ACB6B5 /* HealthBooksModel.m in Sources */,
+				AAEB97F01D23CC3200ACB6B5 /* HealthBooksDetailsViewController.m in Sources */,
+				AAF62B8F1D2605A40078B16F /* PersonalCenterModel.m in Sources */,
+				AAEB60351D1D996B00B8374D /* DataToDictionary.m in Sources */,
+				AA214AFF1D1D4B2800563503 /* HealthBooksViewController.m in Sources */,
+				AAEB97FC1D23CCBF00ACB6B5 /* HealthBooksDetailsViewController+Data.m in Sources */,
+				AA24E5B41D15AECB007E2A0D /* UIImage+Draw.m in Sources */,
+				AA2370E91D1634390098C138 /* MyDoctorViewController.m in Sources */,
+				AAEBF11A1D1C0654007C0DAD /* DoctorDetailsWebViewController.m in Sources */,
+				AA24E57A1D15AC0C007E2A0D /* NavigationViewController.m in Sources */,
+				AA2412C61D2125DD00C6D458 /* WelfareHeaderCell.m in Sources */,
+				AA24E5AB1D15AE96007E2A0D /* UIView+Extensions.m in Sources */,
+				AA26CC351D1AA20F00EBD73C /* DepartmentMembersHelper.m in Sources */,
+				AAE4CE4E1D2F8B4F00EFE3E9 /* PersonalInfomationModel.m in Sources */,
+				AA23716A1D16B5F70098C138 /* HealthCircleCell.m in Sources */,
+				AAF389801D25191B00077CDD /* HealthAnswerListViewController.m in Sources */,
+				AA24E5A31D15AE57007E2A0D /* UIColor+Chat.m in Sources */,
+				AAF3A1D51D1E5A6C00E35890 /* HealthKnowledgeDetailsCell.m in Sources */,
+				AAF3899E1D251C4800077CDD /* HealthAnswerDetailsViewController+Data.m in Sources */,
+				AAEB832F1D198E870097D233 /* MyDoctorHelper.m in Sources */,
+				AA24E5901D15AC17007E2A0D /* CommonWebViewController.m in Sources */,
+				AA24E58E1D15AC17007E2A0D /* CommonViewController.m in Sources */,
+				AA2371711D16B6DE0098C138 /* AnswerModel.m in Sources */,
+				AAEBFC331D1C24C90031EA43 /* DoctorDetailsFooterView.m in Sources */,
+				AA2370F51D1635560098C138 /* PersonalCenterViewController.m in Sources */,
+				AA214ADB1D1CE93100563503 /* NSString+UrlEncode.m in Sources */,
+				AAF3A1CC1D1E5A0D00E35890 /* HealthKnowledgeListViewController.m in Sources */,
+				AAEBFC3B1D1C37DC0031EA43 /* WHC_ModelSqlite.m in Sources */,
+				AA54F0931D18443D001856EB /* HealthInformationModel.m in Sources */,
+				AAEB833F1D199EC20097D233 /* MyDoctorSearchViewController.m in Sources */,
+				AAE4CE3D1D2F844F00EFE3E9 /* MyCouponsViewController.m in Sources */,
+				AAF389921D2519A200077CDD /* HealthAnswerListModel.m in Sources */,
+				AAF389A41D251FDA00077CDD /* HealthAnswerViewController+Data.m in Sources */,
+				AAEB60311D1D912000B8374D /* HealthKnowledgeDataViewModel.m in Sources */,
+				AAE4CE401D2F846600EFE3E9 /* MyOrderViewController.m in Sources */,
+				AAEB83451D19A3980097D233 /* DepartmentListHelper.m in Sources */,
+				AA24E58C1D15AC17007E2A0D /* CommonTableViewCell.m in Sources */,
+				AA24E5B31D15AECB007E2A0D /* UIImage+Color.m in Sources */,
+				AA54F0AB1D185648001856EB /* HealthInformationDetailsViewController.m in Sources */,
+				AA24E57B1D15AC0C007E2A0D /* Networking.m in Sources */,
+				AAEB97CC1D237CBD00ACB6B5 /* MakeAppointmentDoctorViewController.m in Sources */,
+				AAF389861D25193F00077CDD /* HealthAnswerDetailsViewController.m in Sources */,
+				AA2371921D16BB460098C138 /* KeyboradHeaderView.m in Sources */,
+				AA214AF91D1D4B0B00563503 /* HealthAnswerViewController.m in Sources */,
+				AA548CB51D1953840048D707 /* DepartmentModel.m in Sources */,
+				AAEB98051D23CEAE00ACB6B5 /* HealthBooksDetailsModel.m in Sources */,
+				AA54F0A51D184EF0001856EB /* HealthInformationCell.m in Sources */,
+				AAEBF1141D1BE791007C0DAD /* DoctorDetailsViewController.m in Sources */,
+				AAF3A1E11D1E5B1F00E35890 /* HealthKnowledgeDetailsModel.m in Sources */,
+				AAEB83361D19918E0097D233 /* MyDoctorCell.m in Sources */,
+				AA23716C1D16B5F70098C138 /* HealthCircleHeaderView.m in Sources */,
+				AAEBF1171D1BE7DC007C0DAD /* DoctorDetailsCell.m in Sources */,
+				AA24E5AC1D15AE96007E2A0D /* UIView+Frame.m in Sources */,
+				AA2412CC1D21273000C6D458 /* WelfareHelper.m in Sources */,
+				AA2371291D1699700098C138 /* HealthServiceModel.m in Sources */,
+				AA4637DC1D24BC4500B4F686 /* HealthBooksDetailsCell.m in Sources */,
+				AA214AC71D1CE4FD00563503 /* MyDoctorHeaderView.m in Sources */,
+				AAF3A1D21D1E5A5400E35890 /* HealthKnowledgeListCell.m in Sources */,
+				AA54F09D1D184E16001856EB /* HealthInformationViewController.m in Sources */,
+				AA2371721D16B6DE0098C138 /* FriendsModel.m in Sources */,
+				AAE4CE5D1D2F92FC00EFE3E9 /* PersonalInfomationCell.m in Sources */,
+				AA2371261D16994F0098C138 /* HealthServiceHelper.m in Sources */,
+				AAE4CE461D2F848000EFE3E9 /* SettingViewController.m in Sources */,
+				AAEB83421D19A0B00097D233 /* DepartmentListViewController.m in Sources */,
+				AAE4CE371D2F843800EFE3E9 /* HealthRecordsViewController.m in Sources */,
+				AACA7C741D2D0DDF000B3A0D /* PersonalCenterCell.m in Sources */,
+				AAEB97CF1D237CC900ACB6B5 /* PutianHospitalViewController.m in Sources */,
+				AA2412C91D21264A00C6D458 /* WelfareModel.m in Sources */,
+				AA24E59D1D15AE1D007E2A0D /* UIBarButtonItem+Action.m in Sources */,
+				AA2370E61D16341E0098C138 /* WelfareViewController.m in Sources */,
+				AA23718E1D16BAB60098C138 /* ImageDisplayView.swift in Sources */,
+				AA214ACD1D1CE7EC00563503 /* FormattingMyDoctorDataHelper.m in Sources */,
+				AAEB97F61D23CC9E00ACB6B5 /* HealthBooksListViewController+Data.m in Sources */,
+				AA24E58F1D15AC17007E2A0D /* BaseDataViewModel.m in Sources */,
+				AA24E5791D15AC0C007E2A0D /* NavigationBar.m in Sources */,
+				AAEB603B1D1D9E0400B8374D /* HealthKnowledgeViewController+Data.m in Sources */,
+				AAF3A1CF1D1E5A2A00E35890 /* HealthKnowledgeDetailsViewController.m in Sources */,
 				AA24E5351D15A62B007E2A0D /* AppDelegate.m in Sources */,
+				AA23710F1D1658BD0098C138 /* HealthServiceViewController.m in Sources */,
+				AAF3A1DE1D1E5AEA00E35890 /* HealthKnowledgeDetailsViewController+Data.m in Sources */,
+				AA2371331D169EC40098C138 /* HealthServiceCell.m in Sources */,
 				AA24E5321D15A62B007E2A0D /* main.m in Sources */,
+				AAF3A1E41D1E5B3400E35890 /* HealthKnowledgeListModel.m in Sources */,
+				AAEB60501D1DA93300B8374D /* HealthKnowledgeModel.m in Sources */,
+				AAEB97C61D237C9500ACB6B5 /* DiseaseConsultingViewController.m in Sources */,
+				AAEB97C91D237CB000ACB6B5 /* HospitalRankViewController.m in Sources */,
+				AA24E57C1D15AC0C007E2A0D /* SearchController.m in Sources */,
+				AA2371691D16B5F70098C138 /* HealthCircleVC.m in Sources */,
+				AA24E5AD1D15AE96007E2A0D /* UIView+Property.m in Sources */,
+				AAF389951D251BE400077CDD /* HealthAnswerDataViewModel.m in Sources */,
+				AA4637D61D24BC0B00B4F686 /* HealthBooksListCell.m in Sources */,
+				AAF62B8C1D2605760078B16F /* PersonalCenterHelper.m in Sources */,
+				AA24E59F1D15AE1D007E2A0D /* UINavigationController+StackManager.m in Sources */,
+				AAEB97F31D23CC6C00ACB6B5 /* HealthBooksViewController+Data.m in Sources */,
+				AAE4CE431D2F847000EFE3E9 /* CollectionViewController.m in Sources */,
+				AA548CB21D19483A0048D707 /* MyDoctorModel.m in Sources */,
+				AAE4CE521D2F8F8600EFE3E9 /* PersonalInfomationHelper.m in Sources */,
+				AAF389A11D251C6D00077CDD /* HealthAnswerListViewController+Data.m in Sources */,
+				AA24E59E1D15AE1D007E2A0D /* UINavigationController+JZExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,23 +2046,34 @@
 		};
 		AA24E55B1D15A62C007E2A0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A3F1C3645C571B0E7A9B74 /* Pods-PalmHealth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PalmHealth/PrefixHeader.pch";
 				INFOPLIST_FILE = PalmHealth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.haohehealth.PalmHealth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PalmHealth/PalmHealth-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		AA24E55C1D15A62C007E2A0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC63F48DBF321DDB955214C5 /* Pods-PalmHealth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PalmHealth/PrefixHeader.pch";
 				INFOPLIST_FILE = PalmHealth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.haohehealth.PalmHealth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PalmHealth/PalmHealth-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -498,6 +2142,7 @@
 				AA24E55C1D15A62C007E2A0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA24E55D1D15A62C007E2A0D /* Build configuration list for PBXNativeTarget "PalmHealthTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +2151,7 @@
 				AA24E55F1D15A62C007E2A0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA24E5601D15A62C007E2A0D /* Build configuration list for PBXNativeTarget "PalmHealthUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +2160,7 @@
 				AA24E5621D15A62C007E2A0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

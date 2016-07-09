@@ -7,7 +7,15 @@
 //
 
 #import "CommonTableViewController.h"
+#import "HealthBooksDataViewModel.h"
+#import <MBProgressHUD.h>
+#import "HealthBooksDetailsModel.h"
+#import "HealthBooksListModel.h"
 
 @interface HealthBooksDetailsViewController : CommonTableViewController
+
+@property (strong,nonatomic) HealthBooksDataViewModel *heaBooDatViewModel;
+@property (strong,nonatomic) HealthBooksListModel *heaBooLisModel;
+@property (strong,nonatomic) HealthBooksDetailsModel *heaBooDeaModel;
 
 @end

@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setUrl:_welfareModel.detailsURL];
     // Do any additional setup after loading the view.
 }
 

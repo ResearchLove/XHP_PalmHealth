@@ -7,6 +7,8 @@
 //
 
 #import "WelfareViewController.h"
+#import "WelfareHelper.h"
+#import "WelfareViewController+CollectionView.h"
 
 @interface WelfareViewController ()
 
@@ -16,7 +18,42 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setHidesBottomBarWhenPushed:NO];
+    [self.navigationItem setTitle:@"福利"];
+    
+    [self.view addSubview:self.collectionView];
+    [self registerCellForCollectionView:self.collectionView];
+    
+    WelfareHelper *welfareHelper = [[WelfareHelper alloc]init];
+    self.welfareItemDataAry = welfareHelper.welfareItemDataAry;
+        
     // Do any additional setup after loading the view.
+}
+
+/**
+ * Getter and Setter
+ *
+ */
+-(UICollectionView *)collectionView
+{
+
+    if (_collectionView == nil) {
+        UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
+        _collectionView = [[UICollectionView alloc]initWithFrame:self.view.bounds collectionViewLayout:layout];
+        [_collectionView setBackgroundColor:[UIColor whiteColor]];
+        [_collectionView setDataSource:self];
+        [_collectionView setDelegate:self];
+        [_collectionView setAllowsSelection:YES];
+    }
+    return _collectionView;
+
+}
+
+- (void) viewDidDisappear:(BOOL)animated
+{
+    [super viewDidDisappear:animated];
+    
+    [self setHidesBottomBarWhenPushed:NO];
 }
 
 - (void)didReceiveMemoryWarning {

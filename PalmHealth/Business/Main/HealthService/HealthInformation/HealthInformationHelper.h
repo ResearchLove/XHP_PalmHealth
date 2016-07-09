@@ -10,4 +10,6 @@
 
 @interface HealthInformationHelper : NSObject
 
+@property (strong,nonatomic)NSMutableArray *dataAry;
+
 @end

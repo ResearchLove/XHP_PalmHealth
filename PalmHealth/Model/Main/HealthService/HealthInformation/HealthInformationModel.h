@@ -10,4 +10,9 @@
 
 @interface HealthInformationModel : NSObject
 
+@property (copy,nonatomic) NSString *imageURL;
+@property (copy,nonatomic) NSString *title;
+@property (copy,nonatomic) NSString *subTitle;
+@property (copy,nonatomic) NSString *detailsURL;
+
 @end

@@ -10,4 +10,10 @@
 
 @interface WelfareModel : NSObject
 
+@property (copy,nonatomic) NSString *iconPath;
+@property (copy,nonatomic) NSString *title;
+@property (copy,nonatomic) NSString *detailsURL;
+
++(WelfareModel *)createItemIconPath:(NSString *)iconPath title:(NSString *)title detailsURL:(NSString *)detailsURL;
+
 @end

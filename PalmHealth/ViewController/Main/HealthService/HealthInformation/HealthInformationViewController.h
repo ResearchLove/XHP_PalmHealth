@@ -8,6 +8,9 @@
 
 #import "CommonTableViewController.h"
 
+
 @interface HealthInformationViewController : CommonTableViewController
+
+@property (strong,nonatomic) NSMutableArray *dataAry;
 
 @end

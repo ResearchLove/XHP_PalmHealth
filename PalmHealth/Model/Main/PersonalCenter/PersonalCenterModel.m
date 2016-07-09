@@ -10,4 +10,12 @@
 
 @implementation PersonalCenterModel
 
++(PersonalCenterModel *)createMenuIconPath:(NSString *)iconPath title:(NSString *)title
+{
+    PersonalCenterModel *perCenModel = [[PersonalCenterModel alloc]init];
+    perCenModel.imageURL = iconPath;
+    perCenModel.title = title;
+    return perCenModel;
+}
+
 @end

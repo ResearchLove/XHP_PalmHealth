@@ -331,7 +331,7 @@ static sqlite3 * database;
     NSString * table_name = NSStringFromClass(model_class);
     NSString * select_sql = [NSString stringWithFormat:@"SELECT * FROM %@",table_name];
     if (where != nil && where.length > 0) {
-        select_sql = [select_sql stringByAppendingFormat:@" WHERE %@",where];
+        select_sql = [select_sql stringByAppendingFormat:@"WHERE %@",where];
     }
     NSMutableArray * model_object_array = [NSMutableArray array];
     sqlite3_stmt * pp_stmt = nil;

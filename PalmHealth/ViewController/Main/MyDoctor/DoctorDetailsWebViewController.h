@@ -9,5 +9,6 @@
 #import "CommonWebViewController.h"
 
 @interface DoctorDetailsWebViewController : CommonWebViewController
+@property (strong,nonatomic) NSString *loadWebURL;
 
 @end

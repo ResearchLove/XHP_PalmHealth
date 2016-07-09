@@ -8,6 +8,6 @@
 
 #import "CommonTableViewCell.h"
 
-@interface MyDoctorSearchViewController : CommonTableViewCell
+@interface MyDoctorSearchViewController : CommonTableViewCell <UISearchResultsUpdating>
 
 @end

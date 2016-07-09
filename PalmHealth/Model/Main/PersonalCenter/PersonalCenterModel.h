@@ -10,4 +10,10 @@
 
 @interface PersonalCenterModel : NSObject
 
+@property (copy,nonatomic) NSString *imageURL;
+@property (copy,nonatomic) NSString *title;
+
+
++(PersonalCenterModel *)createMenuIconPath:(NSString *)iconPath title:(NSString *)title;
+
 @end

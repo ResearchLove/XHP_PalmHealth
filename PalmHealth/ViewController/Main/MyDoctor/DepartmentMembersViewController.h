@@ -7,7 +7,10 @@
 //
 
 #import "CommonTableViewController.h"
+#import "MyDoctorModel.h"
 
 @interface DepartmentMembersViewController : CommonTableViewController
+
+@property (strong,nonatomic) NSMutableArray *dataAry;
 
 @end

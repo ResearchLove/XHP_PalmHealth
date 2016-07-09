@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setUrl:_heaInfModel.detailsURL];
     // Do any additional setup after loading the view.
 }
 

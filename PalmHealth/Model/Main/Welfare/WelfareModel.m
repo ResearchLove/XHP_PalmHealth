@@ -10,4 +10,13 @@
 
 @implementation WelfareModel
 
++(WelfareModel *)createItemIconPath:(NSString *)iconPath title:(NSString *)title detailsURL:(NSString *)detailsURL
+{
+    WelfareModel *welfareModel = [[WelfareModel alloc]init];
+    welfareModel.iconPath = iconPath;
+    welfareModel.title = title;
+    welfareModel.detailsURL = detailsURL;
+    return welfareModel;
+}
+
 @end

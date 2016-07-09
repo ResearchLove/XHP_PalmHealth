@@ -10,4 +10,6 @@
 
 @interface HealthBooksDetailsViewController (Data)
 
+-(void)loadData;
+
 @end

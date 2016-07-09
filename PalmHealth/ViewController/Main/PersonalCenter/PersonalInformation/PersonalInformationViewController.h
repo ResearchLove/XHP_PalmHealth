@@ -10,4 +10,6 @@
 
 @interface PersonalInformationViewController : CommonTableViewController
 
+@property (strong,nonatomic) NSMutableArray *dataAry;
+
 @end

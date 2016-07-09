@@ -10,4 +10,12 @@
 
 @implementation HealthServiceModel
 
++(HealthServiceModel *)createMenuIconPath:(NSString *)iconPath title:(NSString *)title
+{
+    HealthServiceModel *heaSerModel = [[HealthServiceModel alloc]init];
+    heaSerModel.iconPath = iconPath;
+    heaSerModel.title = title;
+    return heaSerModel;
+}
+
 @end

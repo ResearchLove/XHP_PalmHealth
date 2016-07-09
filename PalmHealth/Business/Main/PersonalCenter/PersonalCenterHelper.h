@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PersonalCenterModel.h"
 
 @interface PersonalCenterHelper : NSObject
+
+@property (strong,nonatomic)NSMutableArray *dataAry;
+
+
+
 
 @end

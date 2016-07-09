@@ -7,6 +7,7 @@
 //
 
 #import "MyCouponsViewController.h"
+#import "NavigationBar.h"
 
 @interface MyCouponsViewController ()
 
@@ -16,8 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.navigationItem setTitle:@"我的优惠券"];
+    [NavigationBar setNavigationLeftButton:self.navigationItem withTarget:self andSelector:@selector(backEvent:)];
     // Do any additional setup after loading the view.
 }
+
+-(void)backEvent:(UIButton *)button
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -10,4 +10,6 @@
 
 @interface HealthAnswerViewController (Data)
 
+-(void)loadData;
+
 @end

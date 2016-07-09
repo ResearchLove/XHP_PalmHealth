@@ -10,4 +10,6 @@
 
 @interface WelfareHelper : NSObject
 
+@property (nonatomic, strong) NSMutableArray *welfareItemDataAry;
+
 @end

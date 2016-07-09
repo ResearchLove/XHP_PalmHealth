@@ -10,4 +10,7 @@
 
 @interface HealthBooksListViewController (Data)
 
+-(void)loadDataWithLoadingView:(BOOL)showLoadingView;
+
+
 @end

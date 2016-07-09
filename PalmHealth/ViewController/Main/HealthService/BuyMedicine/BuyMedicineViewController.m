@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setUrl:@"http://m.zhuanzhuan.com"];
+    [self setUrl:@"http://m.ddky.com/shangcheng.html"];
     // Do any additional setup after loading the view.
 }
 

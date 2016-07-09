@@ -7,6 +7,7 @@
 //
 
 #import "HealthRecordsViewController.h"
+#import "NavigationBar.h"
 
 @interface HealthRecordsViewController ()
 
@@ -16,13 +17,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.navigationItem setTitle:@"健康档案"];
+    [NavigationBar setNavigationLeftButton:self.navigationItem withTarget:self andSelector:@selector(backEvent:)];
     // Do any additional setup after loading the view.
+}
+
+-(void)backEvent:(UIButton *)button
+{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 /*
 #pragma mark - Navigation
